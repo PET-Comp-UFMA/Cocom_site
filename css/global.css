@@ -1,0 +1,47 @@
+.button{
+    font-weight: bold;
+    padding-left: 1.4em;
+    padding-right: 1.4em;
+    border-radius: 1em;
+    text-transform: uppercase;
+}
+
+.button-primary{
+    color: var(--primary);
+    border-color: var(--primary);
+    text-transform: uppercase;
+}
+
+.button-primary:hover{
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: white;
+}
+
+.button-primary:focus, .button-primary:active:focus{
+    box-shadow: none;
+}
+
+.button-outline{
+    color: white;
+    border-color: white;
+    text-transform: uppercase;
+}
+
+.button-outline:hover{
+    background-color: transparent;
+    border-color: white;
+}
+
+.button-outline:focus, .button-outline:active:focus{
+    box-shadow: none;
+}
+
+.bg-light{
+    background-color: var(--gray);
+}
+
+.bg-dark{
+    background-color: var(--primary);
+    color: white;
+}

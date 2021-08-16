@@ -1,479 +1,178 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <title>Cocom</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Template, Cocom, petcomp" name="keywords">
-    <meta content="PETCOMP-UFMA" name="author">
-    <meta content="index, follow" name="robots">
-    <meta name=”creator” content=”PETCOMP-UFMA”>
-    <meta name="google-site-verification" content="Vq1j2NBJRrVdJnbfpVGku9UCJFm-OD1rTIO7XZ7i7Rs" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon-v1/LOGOCocom2.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-v1/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-v1/favicon-16x16.png">
-    <link rel="manifest" href="/favicon-v1/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-v1/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-v1/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-v1/favicon-16x16.png">
 
+    <!--Fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/main.css">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
-
-    <!-- Bootstrap CSS File -->
-    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Libraries CSS Files -->
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/venobox/venobox.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-    <!-- Main Stylesheet File -->
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/custom-style.css" rel="stylesheet">
-
-</head>
-<body>
-  <div id="menu-mobile" style="display: none;">
-    <div class="container">
-        <ul id="nav-menu-mobile" class="nav-menu">
-            <li class="menu-active"><a href="index.html">Home</a></li>
-            <li><a href="noticias.html">Notícias</a></li>
-            <li><a href="documentos.html">Documentos</a></li>
-            <li><a href="./acesso.html">Acesso</a></li>
-        </ul>
-    </div>
-  </div>
-<div class="wrapper">
-    <header id="header">
-    <button id="btn-menu-mobile" onclick="exibeMenuMobile()">
-      <img src="img/favicon-v1/icone-menu-48x48.png">
-    </button>
-    <div class="banner">
-        <div class="div-esq">   
-            <a href="index.html"><img src="img/logo.png" alt="" class="img-fluid" id="img-esq"></a>
-            <p>Coordenação de Ciência da Computação - UFMA</p>
-        </div>
+    <title>COCOM</title>
+  </head>
+  <body>
+    <!--HEADER-->
+    <div id="header">
         <div class="container">
-            <nav id="nav-menu-container">
-                <ul class="nav-menu">
-                    <li class="menu-active"><a href="index.html">Home</a></li>
-                    <li><a href="noticias.html">Notícias</a></li>
-                    <li><a href="documentos.html">Documentos</a></li>
-                    <li><a href="./acesso.html">Acesso</a></li>
-                    <!--<li class="dropdown">
-                      <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Edições Anteriores</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="https://ercemapi21.quixada.ufc.br/">2021</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="https://ercemapi2020.enucompi.com.br/">2020</a> 
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="ercemapi2019/index.html">2019</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="https://nca.ufma.br/jim2012/index.php">2012</a>
-                            <div class="dropdown-divider"></div>
-                        </div>
-                     </a>
-                    </li>-->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/banner.png" class="img-fluid"/>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Página Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="noticias.html">Notícias</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="documentos.html">Documentos</a>
+                    </li>
                 </ul>
+                </div>
             </nav>
-            <!-- #nav-menu-container -->
         </div>
     </div>
-    </header>
+    <!--FIM DO HEADER-->
 
-    <div class="slideshow-container">
-
-      <div class="mySlides">
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <div class="layer">
-          <div class="text chng"><h1>Bem-Vindo!</h1></div>
-          <div class="numbertext">1 / 3</div>
+    <!--CARROSSEL-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <b'utton type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      
-      <div class="mySlides">
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <div class="layer">
-          <div class="text chng"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis nulla ut viverra placerat. Vestibulum luctus cursus eros ac egestas.</p></div>
-          <div class="numbertext">2 / 3</div>
-        </div>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      
-      <div class="mySlides">
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <div class="layer">
-          <div class="text chng"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis nulla ut viverra placerat. Vestibulum luctus cursus eros ac egestas.</p></div>
-          <div class="numbertext">3 / 3</div>
-        </div>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      
-      </div>
-      
-    <!--<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div id="intro" class="carousel-item active">
-          <div class="info-slider">
-            <h2>Bem vindo!</h2>
-          </div>
-        </div>
-        <div id="slide02" class="carousel-item">
-          <div class="info-slider">
-            <h2>Slide 2</h2>
-          </div>
-        </div>
-        <div id="slide03" class="carousel-item">
-          <div class="info-slider">
-            <h2>Slide 3</h2>
-          </div>
-        </div>
-      </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>-->
-
-        <div class="sobre">
-            <div>
-                <h2>Sobre a Cocom</h2>
+        <div class="carousel-inner">
+            <div class="carousel-item active text-center">
+                <h1>bem-vindo!</h1>
+                <a href="#" class="btn button-outline btn-outline-primary button">Saiba Mais</a>
+            </div>
+            <div class="carousel-item text-center">
                 <p>
-                    Texto sobre a Cocom ahah
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis nulla ut viverra placerat. Vestibulum luctus cursus eros ac egestas.
+                </p>
+            </div>
+            <div class="carousel-item text-center">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis nulla ut viverra placerat. Vestibulum luctus cursus eros ac egestas.
                 </p>
             </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--FIM DO CARROSSEL-->
 
-        <div class="integrantes">
-            <div class="discentes">
-               <div class="card">
-                <div class="card-img">
-                  <figure>
-                    <img src="./assets/images/André Sousa Barreto.jpeg" alt="">
-                  </figure>
-                  <button class="card-btn"><a href="#abrirModal1"><i class="fas fa-file-alt"></i>Lattes</a></button>
-                </div>
-                <div id="abrirModal2" class="modal">
-                  <div class="modal-conteiner">
-                    <figure class="modal-figure">
-                      <img class="modal-img" src="./assets/images/André Sousa Barreto.jpeg" alt="">
-                    </figure>
-                    <div class="modal-text">
-                      <h4>Nome: <span>André Barreto</span></h4>
-                      <h4>Lattes: <span><a href="http://" target="_blank" rel="noopener noreferrer">link</a></h4></span> 
-                    </div>
-                  <a href="#fechar" title="fechar" class="fechar"><button>Fechar</button></a>
-                  </div>
-                  
-                </div>
-        
-                <div class="job-img"><i class="fas fa-user-graduate"></i></div>
-                <div class="card-name">
-                  <h3>André Barreto</h3>
-                  <h6>Orientando</h6>
-                </div>
-              </div>
-        
-              <div class="card">
-                <div class="card-img">
-                  <figure>
-                    <img src="./assets/images/Arthur Passos.png" alt="">
-                  </figure>
-                  <button class="card-btn"><a href="#abrirModal3"><i class="fas fa-file-alt"></i>Lattes</a></button>
-                </div>
-                <div id="abrirModal3" class="modal">
-                  <div class="modal-conteiner">
-                    <figure class="modal-figure">
-                      <img class="modal-img" src="./assets/images/Arthur Passos.png" alt="">
-                    </figure>
-                    <div class="modal-text">
-                      <h4>Nome: <span>Arthur Passos</span></h4>
-                      <h4>Lattes: <span><a href="http://" target="_blank" rel="noopener noreferrer">link</a></h4></span> 
-                    </div>
-                  <a href="#fechar" title="fechar" class="fechar"><button>Fechar</button></a>
-                  </div>
-                  
-                </div>
-        
-                <div class="job-img"><i class="fas fa-user-graduate"></i></div>
-                <div class="card-name">
-                  <h3>Arthur Passos</h3>
-                  <h6>Orientando</h6>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-img">
-                  <figure>
-                    <img src="./assets/images/Brenno.jpg" alt="">
-                  </figure>
-                  <button class="card-btn"><a href="#abrirModal4"><i class="fas fa-file-alt"></i>Lattes</a></button>
-                </div>
-                <div id="abrirModal4" class="modal">
-                  <div class="modal-conteiner">
-                    <figure class="modal-figure">
-                      <img class="modal-img" src="./assets/images/Brenno.jpg" alt="">
-                    </figure>
-                    <div class="modal-text">
-                      <h4>Nome: <span>Brenno Izaias</span></h4>
-                      <h4>Lattes: <span><a href="http://" target="_blank" rel="noopener noreferrer">link</a></h4></span> 
-                    </div>
-                  <a href="#fechar" title="fechar" class="fechar"><button>Fechar</button></a>
-                  </div>
-                  
-                </div>
-        
-                <div class="job-img"><i class="fas fa-user-graduate"></i></div>
-                <div class="card-name">
-                  <h3>Brenno Izaias</h3>
-                  <h6>Orientando</h6>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-img">
-                  <figure>
-                    <img src="./assets/images/Carlos Vinicius.jpg" alt="">
-                  </figure>
-                  <button class="card-btn"><a href="#abrirModal5"><i class="fas fa-file-alt"></i>Lattes</a></button>
-                </div>
-                <div id="abrirModal5" class="modal">
-                  <div class="modal-conteiner">
-                    <figure class="modal-figure">
-                      <img class="modal-img" src="./assets/images/Carlos Vinicius.jpg" alt="">
-                    </figure>
-                    <div class="modal-text">
-                      <h4>Nome: <span>Carlos Vinicius</span></h4>
-                      <h4>Lattes: <span><a href="http://" target="_blank" rel="noopener noreferrer">link</a></h4></span> 
-                    </div>
-                  <a href="#fechar" title="fechar" class="fechar"><button>Fechar</button></a>
-                  </div>
-                  
-                </div>
-        
-                <div class="job-img"><i class="fas fa-user-graduate"></i></div>
-                <div class="card-name">
-                  <h3>Carlos Vinicius</h3>
-                  <h6>Orientando</h6>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-img">
-                  <figure>
-                    <img src="./assets/images/Gabriel Costa.jpg" alt="">
-                  </figure>
-                  <button class="card-btn"><a href="#abrirModal6"><i class="fas fa-file-alt"></i>Lattes</a></button>
-                </div>
-                <div id="abrirModal6" class="modal">
-                  <div class="modal-conteiner">
-                    <figure class="modal-figure">
-                      <img class="modal-img" src="./assets/images/Gabriel Costa.jpg" alt="">
-                    </figure>
-                    <div class="modal-text">
-                      <h4>Nome: <span>Gabriel Costa</span></h4>
-                      <h4>Lattes: <span><a href="http://" target="_blank" rel="noopener noreferrer">link</a></h4></span> 
-                    </div>
-                  <a href="#fechar" title="fechar" class="fechar"><button>Fechar</button></a>
-                  </div>
-                  
-                </div>
-        
-                <div class="job-img"><i class="fas fa-user-graduate"></i></div>
-                <div class="card-name">
-                  <h3>Gabriel Costa</h3>
-                  <h6>Orientando</h6>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-img">
-                  <figure>
-                    <img src="./assets/images/Iago Victor SIlva Costa.jpg" alt="">
-                  </figure>
-                  <button class="card-btn"><a href="#abrirModal7"><i class="fas fa-file-alt"></i>Lattes</a></button>
-                </div>
-                <div id="abrirModal7" class="modal">
-                  <div class="modal-conteiner">
-                    <figure class="modal-figure">
-                      <img class="modal-img" src="./assets/images/Iago Victor SIlva Costa.jpg" alt="">
-                    </figure>
-                    <div class="modal-text">
-                      <h4>Nome: <span>Iago Victor</span></h4>
-                      <h4>Lattes: <span><a href="http://" target="_blank" rel="noopener noreferrer">link</a></h4></span> 
-                    </div>
-                  <a href="#fechar" title="fechar" class="fechar"><button>Fechar</button></a>
-                  </div>
-                  
-                </div>
-        
-                <div class="job-img"><i class="fas fa-user-graduate"></i></div>
-                <div class="card-name">
-                  <h3>Iago Victor</h3>
-                  <h6>Orientando</h6>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-img">
-                  <figure>
-                    <img src="./assets/images/João Davi Lima dos Santos.png" alt="">
-                  </figure>
-                  <button class="card-btn"><a href="#abrirModal8"><i class="fas fa-file-alt"></i>Lattes</a></button>
-                </div>
-                <div id="abrirModal8" class="modal">
-                  <div class="modal-conteiner">
-                    <figure class="modal-figure">
-                      <img class="modal-img" src="./assets/images/João Davi Lima dos Santos.png" alt="">
-                    </figure>
-                    <div class="modal-text">
-                      <h4>Nome: <span>João Davi</span></h4>
-                      <h4>Lattes: <span><a href="http://" target="_blank" rel="noopener noreferrer">link</a></h4></span> 
-                    </div>
-                  <a href="#fechar" title="fechar" class="fechar"><button>Fechar</button></a>
-                  </div>
-                  
-                </div>
-        
-                <div class="job-img"><i class="fas fa-user-graduate"></i></div>
-                <div class="card-name">
-                  <h3>João Davi</h3>
-                  <h6>Orientando</h6>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-img">
-                  <figure>
-                    <img src="./assets/images/João Mateus Silva Lopes.jpeg" alt="">
-                  </figure>
-                  <button class="card-btn"><a href="#abrirModal9"><i class="fas fa-file-alt"></i>Lattes</a></button>
-                </div>
-                <div id="abrirModal9" class="modal">
-                  <div class="modal-conteiner">
-                    <figure class="modal-figure">
-                      <img class="modal-img" src="./assets/images/João Mateus Silva Lopes.jpeg" alt="">
-                    </figure>
-                    <div class="modal-text">
-                      <h4>Nome: <span>João Mateus</span></h4>
-                      <h4>Lattes: <span><a href="http://" target="_blank" rel="noopener noreferrer">link</a></h4></span> 
-                    </div>
-                  <a href="#fechar" title="fechar" class="fechar"><button>Fechar</button></a>
-                  </div>
-                  
-                </div>
-        
-                <div class="job-img"><i class="fas fa-user-graduate"></i></div>
-                <div class="card-name">
-                  <h3>João Mateus</h3>
-                  <h6>Orientando</h6>
-                </div>
-              </div>
-        
-              <div class="card">
-                <div class="card-img">
-                  <figure>
-                    <img src="./assets/images/Kennedy Anderson.png" alt="">
-                  </figure>
-                  <button class="card-btn"><a href="#abrirModal11"><i class="fas fa-file-alt"></i>Lattes</a></button>
-                </div>
-                <div id="abrirModal11" class="modal">
-                  <div class="modal-conteiner">
-                    <figure class="modal-figure">
-                      <img class="modal-img" src="./assets/images/Kennedy Anderson.png" alt="">
-                    </figure>
-                    <div class="modal-text">
-                      <h4>Nome: <span>Kennedy Anderson</span></h4>
-                      <h4>Lattes: <span><a href="http://" target="_blank" rel="noopener noreferrer">link</a></h4></span> 
-                    </div>
-                  <a href="#fechar" title="fechar" class="fechar"><button>Fechar</button></a>
-                  </div>
-                  
-                </div>
-        
-                <div class="job-img"><i class="fas fa-user-graduate"></i></div>
-                <div class="card-name">
-                  <h3>Kennedy Anderson</h3>
-                  <h6>Orientando</h6>
-                </div>
-              </div>
-          </div>
+    <!--SOBRE-->
+    <div id="sobre">
+        <div class="container-fluid py-5">
+            <div class="col-ms-12 text-center">
+                <h1>Sobre a COCOM</h1>
+                <p>texto sobre a cocom</p>
+            </div>
         </div>
+    </div>
+    <!--FIM DO SOBRE-->
 
- <!-- FOOTER -->
-    <footer class="fixar-rodape">
-        <div class="container-footer">
-            <div class="footer-titulo">
-                <h2><p>FALE CONOSCO</p></h2>
-            </div>
-            <div class="endereco">
-                <ul>
-                  <li>
-                      <img src="img/outline_home_white_24dp.png" auto="">
-                  </li>
-                </ul>
-                <div>
-                  Endereço: Av. dos Portugueses, 1966 - Vila <br> Bacanga,São Luís - MA, CEP 65080-805
+    <!--INTEGRANTES-->
+    <div id="integrantes">
+        <div class="container mt-3">
+            <div class="row">
+                <div class="text-center mb-3">
+                    <h1>INTEGRANTES</h1>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card"">
+                        <img class="card-img-top px-3 py-3" src="assets/logo.svg" alt="Imagem de capa do card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                            <a href="#integrantes" class="btn button-primary btn-outline-primary button">Visitar</a>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-sm-4">
+                    <div class="card"">
+                        <img class="card-img-top px-3 py-3" src="assets/logo.svg" alt="Imagem de capa do card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                            <a href="#integrantes" class="btn button-primary btn-outline-primary button">Visitar</a>
+                        </div>
+                    </div>    
+                </div>
+                <div class="col-sm-4">
+                    <div class="card"">
+                        <img class="card-img-top px-3 py-3" src="assets/logo.svg" alt="Imagem de capa do card">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+                            <a href="#integrantes" class="btn button-primary btn-outline-primary button">Visitar</a>
+                        </div>
+                    </div>    
                 </div>
             </div>
-            <div class="contato">
-              <ul>
-                <li>
-                    <img src="img/icone_contato-removebg-preview.png" style="width: 48px; height: 48px;" auto="">
-                </li>
-              </ul>
-              <div>
-                Contato:email@email.com
-              </div>
+        </div>
+    </div>
+    <!--FIM DOS INTEGRANTES-->
+
+    <!--FOOTER-->
+    <div id="footer">
+        <div class="container-fluid mt-3 py-3 bg-footer-light">
+            <div class="row">
+                <div class="col-sm-6 px-5 mb-3">
+                    <div class="d-flex">
+                        <h1 class="text-start">Fale Conosco</h1>
+                    </div>
+                    <div class="col py-2">
+                        <img src="assets/home.svg" alt="" class="img-fluid"> Av. dos Portugueses, 1966 - Vila Bacanga, São Luís - MA, CEP 65080-805</p>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col">
+                        <img src="assets/contato.svg" alt="" class="img-fluid"> email@email.com
+                    </div>
+                </div>
+                <div class="col-sm-6 px-5">
+                    <div class="d-flex">
+                        <h1 class="text-start">Vínculo Institucional</h1>
+                    </div>
+                    <div class="col py-2">
+                        <p> 
+                            <strong>UFMA</strong> - Universidade Federal do Maranhão<br>
+                            <strong>CCET</strong> - Centro de Ciências Exatas e Tecnologia<br>
+                            <strong>DEINF</strong> - Departamento de Informática<br>
+                            <strong>COCOM</strong> - Coordenação de Ciência da Computação
+                        </p>
+                    </div>
+                </div>
             </div>
-      </div>
-      <div class="infos">
-            <div class="footer-titulo">
-                <h2><p>VÍNCULO INSTITUCIONAL</p></h2>
-            </div>
-            <div>
-                  <p><strong>UFMA</strong> - Universidade Federal do Maranhão</p>
-                  <p><strong>CCET</strong> - Centro de Ciências Exatas e Tecnologia</p>
-                  <p><strong>DEINF</strong> - Departamento de Informática</p>
-                  <p><strong>COCOM</strong> - Coordenação de Ciência da Computação</p>
-            </div>
-      </div>
-      <br>
-    </footer>
-</div>
-  <!-- JavaScript Libraries -->
-  <!--<script src="venobox.js"></script>-->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
+        </div>
+    </div>
+    <!--FIM DO FOOTER-->
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <!--<script src="lib/easing/easing.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/venobox/venobox.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>-->
-
-  <!--Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
-
-  <!-- Template Main Javascript File -->
-  <!--<script src="js/main.js"></script>-->
-  <script src="js/custom-js.js"></script>
-</body>
+    <!--JavaScript: Separate Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>

@@ -1,0 +1,99 @@
+body, html{
+    font-family: 'Roboto', sans-serif;
+}
+
+#header{
+    width: 100%;
+    background-color: var(--primary);
+    transition: background ease-out 0.2s;
+}
+
+#header .navbar-collapse{
+    width: auto;    
+}
+
+#header .nav-link{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-left: 0;
+    padding-right: 0;
+    color: white;
+    border-bottom: solid 2px transparent;
+}
+
+#header .nav-link:hover{
+    border-bottom: solid 2px white;
+}
+
+#header .active{
+    border-bottom: solid 2px white;
+}
+
+#header .navbar-light .navbar-toggler{
+    color: transparent;
+    border-color: transparent;
+}
+
+#header .navbar-light .navbar-toggler:focus{
+    outline: none;
+}
+
+#header .navbar-light .navbar-toggler-icon{
+    background-image: url(../assets/favicon-v1/icone-menu-48x48.png);
+}
+
+#carouselExampleIndicators{ 
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/bg_slider.svg);
+    background-size: cover;
+    /*Centralizando Verticalmente os elmeentos do Carrossel*/
+    display: flex;
+    align-items: center;
+}
+
+#carouselExampleIndicators h1{
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#carouselExampleIndicators p{
+    color: white;
+    font-size: 2em;
+}
+
+#sobre{
+    background-color: var(--gray);
+}
+
+#footer .bg-footer-light{
+    background-color: var(--gray);
+}
+
+#footer .bg-footer-dark{
+    background-color: var(--primary);
+    color: white;
+}
+
+#footer h1, #noticias h1, #documentos h1{
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+#footer h1::after, #noticias h1::after, #documentos h1::after {
+    background: var(--primary);
+    content: '';
+    display: block;
+    width: 100%;
+    height: 5px;
+}
+
+.bg-gray{
+    background-color: var(--gray);
+}
+
+.bg-gray-dark{
+    background-color: var(--gray-dark);
+}
