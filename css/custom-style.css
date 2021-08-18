@@ -108,10 +108,10 @@ div.body-content{
 }
 
 footer.fixar-rodape{
-    background: #192D43;
-    width: 100%;
-    height: 100%;
-    margin-top: auto;
+  background: #ffab62;
+  width: 100%;
+  height: 180px;
+  margin-top: auto;
 }
 
 /*@media (min-height: 611px) {
