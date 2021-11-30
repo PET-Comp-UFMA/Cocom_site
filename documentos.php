@@ -1,59 +1,10 @@
 <!doctype html>
 <html lang="pt-BR">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-v1/logo.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-v1/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-v1/favicon-16x16.png">
-
-    <!--Fonte-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/main.css">
-
-    <!-- Footer CSS -->
-    <link rel="stylesheet" href="css/footer.css">
-
-    <title>COCOM - Documentos</title>
-  </head>
+  <?php require_once("head.html"); ?>
   <body>
     <div class="wrapper">
     <!--HEADER-->
-    <div id="header">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/banner.png" class="img-fluid"/>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">Página Inicial</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="https://sigaa.ufma.br/sigaa/link/public/curso/curriculo/86106" target="_blank">Currículo</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="noticias.html">Notícias</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link active" href="documentos.html">Documentos</a>
-                    </li>
-                </ul>
-                </div>
-            </nav>
-        </div>
-    </div>
+    <?php require_once("menu-dropdown.html"); ?>
     <!--FIM DO HEADER-->
     
     <!--DOCUMENTOS-->
@@ -344,45 +295,9 @@
     <!--FIM DAS DOCUMENTOS-->
 
     <!--FOOTER-->
-    <div id="footer">
-        <div class="container-fluid mt-3 py-3 bg-footer-light">
-            <div class="row">
-                <div class="col-sm-6 px-5 mb-3">
-                    <div class="d-flex">
-                        <h2 class="text-start">Fale Conosco</h2>
-                    </div>
-                    <div class="col py-2">
-                        <img src="assets/home.svg" alt="" class="img-fluid"> Av. dos Portugueses, 1966 - Vila Bacanga, São Luís - MA, CEP 65080-805</p>
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="col">
-                        <img src="assets/contato.svg" alt="" class="img-fluid"> cocom@ufma.br
-                    </div>
-                </div>
-                <div class="col-sm-6 px-5">
-                    <div class="d-flex">
-                        <h2 class="text-start">Vínculo Institucional</h2>
-                    </div>
-                    <div class="col py-2">
-                        <p> 
-                            <strong>UFMA</strong> - Universidade Federal do Maranhão<br>
-                            <strong>CCET</strong> - Centro de Ciências Exatas e Tecnologia<br>
-                            <strong>DEINF</strong> - Departamento de Informática<br>
-                            <strong>COCOM</strong> - Coordenação de Ciência da Computação
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid py-2 bg-footer-dark">
-            <p class="text-center mb-0">&copy Copyright: PETCOMP - UFMA</p>
-        </div>
-    </div>
+        <?php require_once("footer.html"); ?>
     <!--FIM DO FOOTER-->
 
-    <!--JavaScript: Separate Popper and Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <?php require_once("scripts.html"); ?>
   </body>
 </html>
