@@ -58,18 +58,14 @@
                 <div class="text-center mb-3">
                     <h1>INTEGRANTES</h1>
                 </div>
-                <div class="col-sm-4"></div>
-                <div class="col-sm-4">
                     <div class="card">
-                        <img class="card-img-top px-5 py-5" src="assets/integrantes/simara.jpg" alt="Imagem da professora simara">
+                        <img class="card-img-top" src="assets/integrantes/simara.jpg" alt="Imagem da professora simara">
                         <div class="card-body text-center">
                             <h5 class="card-title">Profa. Dra. Simara V. da Rocha</h5>
                             <p class="card-text">Coordenadora</p>
                             <a href="http://deinf.ufma.br/~simara/" class="btn button-primary btn-outline-primary button">Visitar</a>
                         </div>
                     </div>    
-                </div>
-                <div class="col-sm-4"></div>
             </div>
         </div>
     </div>

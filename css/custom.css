@@ -97,3 +97,102 @@ body, html{
 .bg-gray-dark{
     background-color: var(--gray-dark);
 }
+
+/*FONTES*/
+* {
+    font-size: 25px;
+}
+p {
+    font-size: .9rem;
+}
+
+h1 {
+    font-size: 1.65rem;
+}
+
+h2 {
+    font-size: 1.45rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-size: 1.05rem;
+}
+
+h5 {
+    font-size: .9rem;
+}
+
+h6 {
+    font-size: .8rem;
+}
+
+.col > p, strong, p.text-center, .col-sm-12 > p, .col-sm-9 > p{
+    font-size: .8rem;
+}
+
+.navbar-nav > .nav-item > .nav-link {
+    font-size: .8rem;
+}
+
+th, tr {
+    font-size: 1rem;
+}
+
+.col-sm-12 {
+    border-radius: 1em 1em 0px 0px;
+}
+
+thead {
+    border-radius: 1em;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.row {
+    display: flex;
+    justify-content: center;    
+}
+
+/*.table thead th:last-child{
+    border-radius: 10px;
+}*/
+
+.table tbody > tr {
+    transition: .5s;
+}
+
+.table tbody > tr:hover {
+    background-color: #BAC5CD;
+}
+
+.noticia {
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3);
+    border-radius: 1em;
+}
+
+.row .mt-3 .mb-3 .bg-gray {
+    
+}
+
+.card-img-top {
+    border-radius: 1em;
+}
+
+.card, .card-img-top {
+    width: 300px;
+}
+
+@media (max-width: 991px) {
+    
+
+    
+}
