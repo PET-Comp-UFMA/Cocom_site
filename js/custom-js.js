@@ -1,19 +1,20 @@
-function exibeMenuMobile(){
-    var menu = document.getElementById("menu-mobile");
-    if(menu.style.display == 'none'){
-        menu.style.display = "flex";
-        menu.className = 'anim-menu-mobile-open';
-        document.getElementById("nav-menu-mobile").className = 'nav-menu anim-menu-mobile-open';
-    }else{
+btnMenu = document.getElementById("btnNavBar");
+btnMenu.addEventListener("click", fechaNavBar);
+
+function fechaNavBar(){
+    var menu = document.getElementById("navbarNav");
+    if(menu.className == 'navbar-collapse justify-content-end collapse show'){
+        menu.className = 'navbar-collapse justify-content-end collapse';
+    }/*else{
         menu.className = 'anim-menu-mobile-close';
         document.getElementById("nav-menu-mobile").className = 'nav-menu anim-menu-mobile-close';
         setTimeout(function (){
             menu.style.display = "none";
         }, 0075);
-    }
+    }*/
 };
 
-var slideIndex = 1;
+/*var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
@@ -38,4 +39,4 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "flex";  
   dots[slideIndex-1].className += " active";
-}
+}*/
