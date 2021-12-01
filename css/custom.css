@@ -39,7 +39,7 @@ body, html{
 }
 
 #header .navbar-light .navbar-toggler-icon{
-    background-image: url(../assets/favicon-v1/icone-menu-48x48.png);
+    background-image: url(../assets/favicon-v1/btn_menu.png);
 }
 
 #carouselExampleIndicators{ 
@@ -102,6 +102,11 @@ body, html{
 * {
     font-size: 25px;
 }
+
+a {
+    font-size: .9rem;
+}
+
 p {
     font-size: .9rem;
 }
@@ -130,7 +135,7 @@ h6 {
     font-size: .8rem;
 }
 
-.col > p, strong, p.text-center, .col-sm-12 > p, .col-sm-9 > p{
+.col > p, strong, p.text-center, .col-sm-12 > p, .col-sm-9 > p, .col-sm-12 a, .col-sm-9 a{
     font-size: .8rem;
 }
 
@@ -143,7 +148,7 @@ th, tr {
 }
 
 .col-sm-12 {
-    border-radius: 1em 1em 0px 0px;
+    border-radius: .5em .5em 0px 0px;
 }
 
 thead {
@@ -162,10 +167,6 @@ thead {
     justify-content: center;    
 }
 
-/*.table thead th:last-child{
-    border-radius: 10px;
-}*/
-
 .table tbody > tr {
     transition: .5s;
 }
@@ -175,8 +176,12 @@ thead {
 }
 
 .noticia {
-    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.3);
-    border-radius: 1em;
+    box-shadow: 6px 6px 14px -1px rgba(0,0,0,0.2);
+    border-radius: .5em;
+}
+
+.noticia p {
+    text-align: justify;
 }
 
 .row .mt-3 .mb-3 .bg-gray {
@@ -189,10 +194,4 @@ thead {
 
 .card, .card-img-top {
     width: 300px;
-}
-
-@media (max-width: 991px) {
-    
-
-    
 }
