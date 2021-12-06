@@ -44,8 +44,8 @@ body, html{
 
 #carouselExampleIndicators{ 
     width: 100%;
-    height: 100vh;
-    background-image: url(../assets/bg_slider.svg);
+    height: 50vh;
+    background-image: url(../assets/charles-deluvio-pjAH2Ax4uWk-unsplash.jpg);
     background-size: cover;
     /*Centralizando Verticalmente os elmeentos do Carrossel*/
     display: flex;
@@ -148,7 +148,7 @@ th, tr {
 }
 
 .col-sm-12 {
-    border-radius: .5em .5em 0px 0px;
+    border-radius: .2em .2em 0px 0px;
 }
 
 thead {
@@ -176,16 +176,19 @@ thead {
 }
 
 .noticia {
-    box-shadow: 6px 6px 14px -1px rgba(0,0,0,0.2);
-    border-radius: .5em;
+    /*box-shadow: 6px 6px 14px -1px rgba(0,0,0,0.2);*/
+    margin: 0px !important;
+    /*border-radius: .2em;*/
+    width: 100% !important;
+    border-bottom: solid 1px;
+}
+
+.d-flex .p-2 {
+    border-bottom: solid 1px !important;
 }
 
 .noticia p {
     text-align: justify;
-}
-
-.row .mt-3 .mb-3 .bg-gray {
-    
 }
 
 .card-img-top {

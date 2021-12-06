@@ -13,9 +13,12 @@
                 <h1>Notícias</h1>
             </div>
             <!--Notícia 1-->
-            <div class="row mt-3 mb-3 bg-gray noticia">
-                <div class="col-sm-12 px-3 py-2  bg-gray-dark">
+            <div class="row mt-3 mb-3 noticia">
+                <div class="col-sm-12 px-3 py-2">
                     <h4 class="mb-0">Código das disciplinas</h4>
+                </div>
+                <div class="img">
+
                 </div>
                 <div class="col-sm-12 py-3">
                     <p>Os códigos das disciplinas podem ser obtidos no SIGAA.</p>
@@ -28,8 +31,8 @@
             <!-- Fim da Notícia 1-->
 
             <!--Notícia 2-->
-            <div class="row mt-3 mb-3 bg-gray noticia">
-                <div class="col-sm-12 px-3 py-2  bg-gray-dark">
+            <div class="row mt-3 mb-3 noticia">
+                <div class="col-sm-12 px-3 py-2">
                     <h4 class="mb-0">Não usar para solicitações a COCOM</h4>
                 </div>
                 <div class="col-sm-12 py-3">
@@ -44,8 +47,8 @@
             </div>
             <!-- Fim da Notícia 2-->
 
-            <div class="row mt-3 mb-3 bg-gray noticia">
-                <div class="col-sm-12 px-3 py-2  bg-gray-dark">
+            <div class="row mt-3 mb-3 noticia">
+                <div class="col-sm-12 px-3 py-2">
                     <h4 class="mb-0">Nova ata de defesa monografia</h4>
                 </div>
                 <div class="col-sm-12 py-3">
@@ -57,8 +60,8 @@
                 </div>
             </div>
 
-            <div class="row mt-3 mb-3 bg-gray align-items-center noticia">
-                <div class="col-sm-12 px-3 py-2  bg-gray-dark">
+            <div class="row mt-3 mb-3 align-items-center noticia">
+                <div class="col-sm-12 px-3 py-2">
                     <h4 class="mb-0">SBPC - Divulgação</h4>
                 </div>
                 <div class="col-sm-3 ">
@@ -74,8 +77,8 @@
                 </div>
             </div>
 
-            <div class="row mt-3 mb-3 bg-gray align-items-center noticia">
-                <div class="col-sm-12 px-3 py-2  bg-gray-dark">
+            <div class="row mt-3 mb-3 align-items-center noticia">
+                <div class="col-sm-12 px-3 py-2">
                     <h4 class="mb-0">Programa Jovens Talentos para Ciência</h4>
                 </div>
                 <div class="col-sm-3">
@@ -100,8 +103,8 @@
                 </div>
             </div>
 
-            <div class="row mt-3 mb-3 bg-gray noticia">
-                <div class="col-sm-12 px-3 py-2  bg-gray-dark">
+            <div class="row mt-3 mb-3 noticia">
+                <div class="col-sm-12 px-3 py-2">
                     <h4 class="mb-0">Novo Site</h4>
                 </div>
                 <div class="col-sm-12  py-3">

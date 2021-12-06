@@ -16,7 +16,7 @@
         <div class="carousel-inner">
             <div class="carousel-item active text-center">
                 <h1>bem-vindo!</h1>
-                <a href="#sobre" class="btn button-outline btn-outline-primary button">Saiba Mais</a>
+                <a href="#sobre" class="btn button-outline btn-outline-primary button">Sobre a Cocom</a>
             </div>
             <!--<div class="carousel-item text-center">
                 <p>
