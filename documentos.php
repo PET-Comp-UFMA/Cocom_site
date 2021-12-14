@@ -80,7 +80,7 @@
                     </tbody>
                     </table>
 
-                <h3 class="px-0 w-75">Formulários</h3>
+                <h3 class="px-0 w-75">PPC 2020 - Formulários</h3>
                 <table class="table table-bordered text-center w-75">
                     <thead>
                         <tr class="bg-gray-dark">
@@ -285,6 +285,12 @@
                             <th scope="row">Normas de Atividades Complementares do Curso de Ciência da Computação</th>
                             <td>
                                 <a href="documentos/Currículo/Normas de Atividades Complementares do Curso de Computação.pdf" download="Normas de Atividades Complementares do Curso de Computação"><img src="assets/download.png" alt="" class="img-fluid"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Histórico do Curso atual</th>
+                            <td>
+                                <a href="documentos/Currículo/Histórico do Curso atual.doc" download="Histórico do Curso atual"><img src="assets/download.png" alt="" class="img-fluid"></a>
                             </td>
                         </tr>
                     </tbody>

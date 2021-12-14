@@ -17,25 +17,28 @@
                 <div class="col-sm-12 px-3 py-2">
                     <h4 class="mb-0">Código das disciplinas</h4>
                 </div>
-                <div class="img">
-
+                <div class="col-sm-3 ">
+                    <img src="assets/logo.png" alt="" class="img-noticia px-3 py-3">
                 </div>
-                <div class="col-sm-12 py-3">
+                <div class="col-sm-9 py-3">
                     <p>Os códigos das disciplinas podem ser obtidos no SIGAA.</p>
-                    <p>Consultar Estrutura Curricular.</p>
+                    <p>Ensino, Consultar Estrutura Curricular.</p>
                 </div>
                 <div class="col-sm-12 mt-2">
                     <h6>Postado em 04/11/2015</h6>
                 </div>
             </div>
             <!-- Fim da Notícia 1-->
-
+            <div class="line-gray"></div>
             <!--Notícia 2-->
             <div class="row mt-3 mb-3 noticia">
                 <div class="col-sm-12 px-3 py-2">
                     <h4 class="mb-0">Não usar para solicitações a COCOM</h4>
                 </div>
-                <div class="col-sm-12 py-3">
+                <div class="col-sm-3 ">
+                    <img src="assets/logo.png" alt="" class="img-noticia px-3 py-3">
+                </div>
+                <div class="col-sm-9 py-3">
                     <p>Favor não usar este site para solicitações a Coordenadoria.</p>
                     <P>Este é um site apenas informativo.</P>
                     <p>Para solicitações a Coordenadoria usar exlusivamente o email: <strong>cocom@ufma.br</strong></p>
@@ -46,12 +49,15 @@
                 </div>
             </div>
             <!-- Fim da Notícia 2-->
-
+            <div class="line-gray"></div>
             <div class="row mt-3 mb-3 noticia">
                 <div class="col-sm-12 px-3 py-2">
                     <h4 class="mb-0">Nova ata de defesa monografia</h4>
                 </div>
-                <div class="col-sm-12 py-3">
+                <div class="col-sm-3 ">
+                    <img src="assets/logo.png" alt="" class="img-noticia px-3 py-3">
+                </div>
+                <div class="col-sm-9 py-3">
                     <p>Caros,</p> 
                     <p>A nova ata de defesa de monografia ja está disponível.</p>
                 </div>
@@ -59,13 +65,13 @@
                     <h6>Postado em 25/05/2012</h6>
                 </div>
             </div>
-
+            <div class="line-gray"></div>
             <div class="row mt-3 mb-3 align-items-center noticia">
                 <div class="col-sm-12 px-3 py-2">
                     <h4 class="mb-0">SBPC - Divulgação</h4>
                 </div>
                 <div class="col-sm-3 ">
-                    <img src="assets/img_noticias/sbpc.jpg" alt="" class="img-fluid px-3 py-3">
+                    <img src="assets/img_noticias/sbpc.jpg" alt="" class="img-noticia px-3 py-3">
                 </div>
                 <div class="col-sm-9 py-3">
                     <p>Divulgando:</p>
@@ -76,13 +82,13 @@
                     <h6>Postado em 20/03/2012</h6>
                 </div>
             </div>
-
+            <div class="line-gray"></div>
             <div class="row mt-3 mb-3 align-items-center noticia">
                 <div class="col-sm-12 px-3 py-2">
                     <h4 class="mb-0">Programa Jovens Talentos para Ciência</h4>
                 </div>
                 <div class="col-sm-3">
-                    <img src="assets/img_noticias/logo_capes.gif" alt="" class="img-fluid px-3 py-3">
+                    <img src="assets/img_noticias/logo_capes.gif" alt="" class="img-noticia px-3 py-3">
                 </div>
                 <div class="col-sm-9 py-3">
                     <p style="text-align: justify;">Encaminhando.<br>
@@ -102,12 +108,15 @@
                     <h6>Postado em 19/03/2012</h6>
                 </div>
             </div>
-
+            <div class="line-gray"></div>
             <div class="row mt-3 mb-3 noticia">
                 <div class="col-sm-12 px-3 py-2">
                     <h4 class="mb-0">Novo Site</h4>
                 </div>
-                <div class="col-sm-12  py-3">
+                <div class="col-sm-3 ">
+                    <img src="assets/logo.png" alt="" class="img-noticia px-3 py-3">
+                </div>
+                <div class="col-sm-8  py-3">
                     <p>Sejam bem vindos ao novo site da Coordenação de Ciência da Computação da UFMA.</p>
                     <p>Este é resultado de um trabalho de alunos da disciplina de Lab. de Eng. de Software em prol da comunidade do curso.<br></p>
                     <p>Através deste site, a COCOM avisará sobre estágio, eventos, oferta de disciplinas...</p>
@@ -119,6 +128,7 @@
                     <h6>Postado em 16/03/2012</h6>
                 </div>
             </div>
+            <div class="line-gray"></div>
         </div>
         </div>
     </div>
