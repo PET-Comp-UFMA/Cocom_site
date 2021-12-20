@@ -1,51 +1,13 @@
 <!doctype html>
 <html lang="pt-BR">
-  <?php require_once("head.html") ?>
+<?php require_once("head.html"); ?>
   <body>
     <!--HEADER-->
     <?php require_once("menu-dropdown.html"); ?>
     <!--FIM DO HEADER-->
 
-    <!--CARROSSEL-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <!--<div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <b'utton type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>-->
-        <div class="carousel-inner">
-            <div class="carousel-item active text-center">
-                <h1>bem-vindo!</h1>
-                <a href="#sobre" class="btn button-outline btn-outline-primary button">Sobre a Cocom</a>
-            </div>
-            <!--<div class="carousel-item text-center">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis nulla ut viverra placerat. Vestibulum luctus cursus eros ac egestas.
-                </p>
-            </div>
-            <div class="carousel-item text-center">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque venenatis nulla ut viverra placerat. Vestibulum luctus cursus eros ac egestas.
-                </p>
-            </div>-->
-        </div>
-        <!--<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>-->
-    </div>
-    <!--FIM DO CARROSSEL-->
-
-    <!--SOBRE-->
-    <div id="sobre">
-        <div class="container-fluid py-5 w-75">
-            <div class="col-ms-12 text-center">
-                <h1>Sobre a COCOM</h1>
-                <p>A Coordenação de Ciência da Computação da UFMA é responsável por mudanças no curso, no comportamento dos docentes e dos colaboradores. Suas atividades envolvem funções políticas, gerenciais, acadêmicas e institucionais. Para conhecer o histórico do curso, <a href="historico_curso.php">clique aqui</a></p>
+    <div class="container-fluid py-5 w-75">
+    <div class="col-ms-12 text-center">
                 <h2>Histórico</h2>
                 <p>O registro histórico dos eventos da informática na UFMA tem sua origem no ano de 1978, quando o Prof. João Fernando Atta de Oliveira Pantoja, promoveu a criação e instalação do que hoje é o Núcleo de Tecnologia da Informação (NTI), não como funciona atualmente, mas sim, de um órgão, que cumprisse as funções de uma Central de Comunicação, Documentação e Informática. Posteriormente, após retornar do seu doutorado na Inglaterra, elaborou um projeto para instalação do Curso de Ciência da Computação na UFMA, em nível de bacharelado. Neste projeto, o Prof. Pantoja contou com a participação de Wagner de Mello Moura, que no início dos anos de 1990 chegou a dirigir o NPD (como o STI se chamava na época).</p>
                 <p>Esse projeto não obteve, inicialmente, a compreensão e o apoio dos dirigentes da Universidade naquela época. A decisão política de criar e instalar o curso, foi tomada somente quando o Prof. Pantoja estava afastado para a realização do curso de Pós-Doutorado no exterior.</p>
@@ -279,29 +241,7 @@
                     </table>
                     <p>Atualmente, o curso tem cerca de 385 alunos matriculados e é responsável por ter formando ao longo desse tempo mais de 25 turmas. Uma parcela significativa desses bacharéis buscou o nível de Pós-graduação, com sucesso, em diversas instituições nacionais e internacionais, além da própria UFMA. A qualidade no ensino aqui desenvolvido também é reconhecida na sociedade, onde os principais cargos de relacionados a TI no Maranhão, normalmente, são ocupados por egressos formados em Ciência da Computação na UFMA.</p>
             </div>
-        </div>
-    </div>
-    <!--FIM DO SOBRE-->
-
-    <!--INTEGRANTES-->
-    <div id="integrantes">
-        <div class="container mt-3 py-3">
-            <div class="row">
-                <div class="text-center mb-3">
-                    <h1>INTEGRANTES</h1>
-                </div>
-                    <div class="card">
-                        <img class="card-img-top" src="assets/integrantes/simara.jpg" alt="Imagem da professora simara">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Profa. Dra. Simara V. da Rocha</h5>
-                            <p class="card-text">Coordenadora</p>
-                            <a href="http://deinf.ufma.br/~simara/" class="btn button-primary btn-outline-primary button">Visitar</a>
-                        </div>
-                    </div>    
             </div>
-        </div>
-    </div>
-    <!--FIM DOS INTEGRANTES-->
 
     <!--FOOTER-->
     <?php require_once("footer.html"); ?>

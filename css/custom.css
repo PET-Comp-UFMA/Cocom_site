@@ -139,6 +139,14 @@ h6 {
     font-size: .8rem;
 }
 
+.text-center > p, .text-center > ul {
+    text-align: justify !important;
+}
+
+table.text-center {
+    text-align: center !important;
+}
+
 .navbar-nav > .nav-item > .nav-link {
     font-size: .8rem;
 }
