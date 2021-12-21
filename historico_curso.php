@@ -39,6 +39,7 @@
                 <p>Decorridos quase 35 anos de sua fundação, o curso de Ciência da Computação evoluiu e hoje conta com 4 laboratórios dedicados, exclusivamente, às atividades de ensino e 10 laboratórios de pesquisa (LABJEDI, LABMINT, LACMOR, LSDI, LAWS, LIDI, MECANET, NCA, Telemídia MA e VIPLAB), uma infraestrutura que atende, atualmente, cerca de 120 alunos distribuídos entre alunos de graduação, mestrado e doutorado. Além de contar com um Programa de Ensino Tutorial (PET), que atualmente possui 18 alunos, incluindo bolsistas e voluntários, participando ativamente.</p>
                 <p>O curso tem, ainda, o Programa de Pós-Graduação em Ciência da Computação (PPGCC), que oferta do mestrado em nível acadêmico e o Doutorado em Ciência da Computação em Associação UFMA/UFPI.</p>
                 <p>O corpo docente atual é formado pelos seguintes professores:</p>
+                <div class="table-div">
                 <table class="table table-bordered text-center w-75" style="">
                     <thead>
                         <tr class="bg-gray-dark">
@@ -239,6 +240,7 @@
                         </tr>
                     </tbody>
                     </table>
+                    </div>
                     <p>Atualmente, o curso tem cerca de 385 alunos matriculados e é responsável por ter formando ao longo desse tempo mais de 25 turmas. Uma parcela significativa desses bacharéis buscou o nível de Pós-graduação, com sucesso, em diversas instituições nacionais e internacionais, além da própria UFMA. A qualidade no ensino aqui desenvolvido também é reconhecida na sociedade, onde os principais cargos de relacionados a TI no Maranhão, normalmente, são ocupados por egressos formados em Ciência da Computação na UFMA.</p>
             </div>
             </div>

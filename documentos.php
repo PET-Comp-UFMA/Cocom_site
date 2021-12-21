@@ -287,12 +287,12 @@
                                 <a href="documentos/Currículo/Normas de Atividades Complementares do Curso de Computação.pdf" download="Normas de Atividades Complementares do Curso de Computação"><img src="assets/download.png" alt="" class="img-fluid"></a>
                             </td>
                         </tr>
-                        <tr>
+                        <!--<tr>
                             <th scope="row">Histórico do Curso atual</th>
                             <td>
                                 <a href="documentos/Currículo/Histórico do Curso atual.doc" download="Histórico do Curso atual"><img src="assets/download.png" alt="" class="img-fluid"></a>
                             </td>
-                        </tr>
+                        </tr>-->
                     </tbody>
                     </table>
             </div>

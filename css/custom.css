@@ -236,3 +236,17 @@ thead {
 .img-noticia {
     max-width: 300px;
 }
+
+.link-historico {
+    color: #212529;
+    transition: .25s;
+}
+
+.link-historico:hover {
+    color: #205ac5;
+}
+
+.table-div {
+    display: flex;
+    justify-content: center;
+}
