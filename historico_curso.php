@@ -5,10 +5,11 @@
     <!--HEADER-->
     <?php require_once("menu-dropdown.html"); ?>
     <!--FIM DO HEADER-->
-
     <div class="container-fluid py-5 w-75">
+    <div class="d-flex p-2 justify-content-center">
+            <h1>Histórico</h1>
+    </div>
     <div class="col-ms-12 text-center">
-                <h2>Histórico</h2>
                 <p>O registro histórico dos eventos da informática na UFMA tem sua origem no ano de 1978, quando o Prof. João Fernando Atta de Oliveira Pantoja, promoveu a criação e instalação do que hoje é o Núcleo de Tecnologia da Informação (NTI), não como funciona atualmente, mas sim, de um órgão, que cumprisse as funções de uma Central de Comunicação, Documentação e Informática. Posteriormente, após retornar do seu doutorado na Inglaterra, elaborou um projeto para instalação do Curso de Ciência da Computação na UFMA, em nível de bacharelado. Neste projeto, o Prof. Pantoja contou com a participação de Wagner de Mello Moura, que no início dos anos de 1990 chegou a dirigir o NPD (como o STI se chamava na época).</p>
                 <p>Esse projeto não obteve, inicialmente, a compreensão e o apoio dos dirigentes da Universidade naquela época. A decisão política de criar e instalar o curso, foi tomada somente quando o Prof. Pantoja estava afastado para a realização do curso de Pós-Doutorado no exterior.</p>
                 <p>Dessa maneira, uma comissão foi formada com o objetivo de analisar o projeto criado pelo Prof. Pantoja e apresentar uma proposta que obtivesse apoio e aprovação da comunidade Universitária. Para a presidência dessa comissão foi indicado o Prof. José Gomes de Matos, do departamento de Engenharia Elétrica.</p>

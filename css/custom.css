@@ -139,7 +139,7 @@ h6 {
     font-size: .8rem;
 }
 
-.text-center > p, .text-center > ul {
+.text-center p, .text-center > ul {
     text-align: justify !important;
 }
 
@@ -249,4 +249,8 @@ thead {
 .table-div {
     display: flex;
     justify-content: center;
+}
+
+p.card-text{
+    text-align: center !important;
 }
