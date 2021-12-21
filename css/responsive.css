@@ -8,6 +8,12 @@
     }
 }
 
+@media (max-width: 1200px) {
+    .navbar-nav > .nav-item > .nav-link {
+        font-size: .8rem;
+    }
+}
+
 @media (min-width: 992px){
     #header .nav-link{
         margin-left: 15px;

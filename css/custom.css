@@ -104,19 +104,23 @@ body, html{
 }
 
 a {
-    font-size: .9rem;
+    font-size: .75rem;
 }
 
 p {
-    font-size: .9rem;
+    font-size: .75rem;
+}
+
+li {
+    font-size: .75rem;
 }
 
 h1 {
-    font-size: 1.65rem;
+    font-size: 1.6rem;
 }
 
 h2 {
-    font-size: 1.45rem;
+    font-size: 1.4rem;
 }
 
 h3 {
@@ -148,12 +152,16 @@ table.text-center {
 }
 
 .navbar-nav > .nav-item > .nav-link {
-    font-size: .8rem;
+    font-size: .75rem;
 }
 
-th, tr {
-    font-size: 1rem;
+tr {
+    font-size: .85rem;
     border: solid 1px rgb(161, 161, 161);
+}
+
+td, th[scope=row] {
+    font-size: .8rem;
 }
 
 td, th{
