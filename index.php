@@ -45,7 +45,7 @@
         <div class="container-fluid py-5 w-75">
             <div class="col-ms-12 text-center">
                 <h1>Sobre a COCOM</h1>
-                <p>A Coordenação de Ciência da Computação da UFMA é responsável por mudanças no curso, no comportamento dos docentes e dos colaboradores. Suas atividades envolvem funções políticas, gerenciais, acadêmicas e institucionais. Para conhecer o histórico do curso, <a href="historico_curso.php" style="text-decoration: none" class="link-historico">clique aqui</a></p>
+                <p>A Coordenação de Ciência da Computação da UFMA é responsável por mudanças no curso, no comportamento dos docentes e dos colaboradores. Suas atividades envolvem funções políticas, gerenciais, acadêmicas e institucionais. Para conhecer o histórico do curso, <a href="historico_curso.php" style="text-decoration: none" class="link-historico">clique aqui</a>.</p>
             </div>
         </div>
     </div>
