@@ -1,7 +1,8 @@
 <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><?php echo isset($title) ? $title : "COCOM"; ?></title>
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-v1/logo.png">
@@ -13,8 +14,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/main.css">
+    
 
-    <title>COCOM</title>
+    <?php
+      if (isset($cssFiles) && is_array($cssFiles)) {
+            foreach ($cssFiles as $cssFile) {
+                echo '<link rel="stylesheet" href="' . $cssFile . '">';
+            }
+        }
+    ?>
+
   </head>

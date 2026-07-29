@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="pt-BR">
-<?php require_once("head.html"); ?>
+<?php require_once("includes/head.html"); ?>
   <body>
     <!--HEADER-->
-    <?php require_once("menu-dropdown.html"); ?>
+    <?php require_once("includes/header.html"); ?>
     <!--FIM DO HEADER-->
 
     <!--NOTÍCIAS-->
@@ -18,7 +18,7 @@
                     <h4 class="mb-0">Código das disciplinas</h4>
                 </div>
                 <div class="col-sm-3 ">
-                    <img src="assets/logo.png" alt="" class="img-noticia px-3 py-3">
+                    <img src="../assets/logo.png" alt="" class="img-noticia px-3 py-3">
                 </div>
                 <div class="col-sm-9 py-3">
                     <p>Os códigos das disciplinas podem ser obtidos no SIGAA.</p>
@@ -135,9 +135,9 @@
     <!--FIM DAS NOTÍCIAS-->
 
     <!--FOOTER-->
-    <?php require_once("footer.html"); ?>
+    <?php require_once("includes/footer.html"); ?>
     <!--FIM DO FOOTER-->
 
-    <?php require_once("scripts.html"); ?>
+    <?php require_once("includes/scripts.html"); ?>
   </body>
 </html>
