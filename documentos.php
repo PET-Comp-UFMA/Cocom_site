@@ -4,7 +4,7 @@
   <body>
     <div class="wrapper">
     <!--HEADER-->
-    <?php require_once("menu-dropdown.html"); ?>
+    <?php require_once("header.php"); ?>
     <!--FIM DO HEADER-->
     
     <!--DOCUMENTOS-->
@@ -301,7 +301,7 @@
     <!--FIM DAS DOCUMENTOS-->
 
     <!--FOOTER-->
-        <?php require_once("footer.html"); ?>
+        <?php require_once("footer.php"); ?>
     <!--FIM DO FOOTER-->
 
     <?php require_once("scripts.html"); ?>

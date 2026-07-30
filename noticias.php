@@ -3,7 +3,7 @@
 <?php require_once("head.html"); ?>
   <body>
     <!--HEADER-->
-    <?php require_once("menu-dropdown.html"); ?>
+    <?php require_once("header.php"); ?>
     <!--FIM DO HEADER-->
 
     <!--NOTÍCIAS-->
@@ -135,7 +135,7 @@
     <!--FIM DAS NOTÍCIAS-->
 
     <!--FOOTER-->
-    <?php require_once("footer.html"); ?>
+    <?php require_once("footer.php"); ?>
     <!--FIM DO FOOTER-->
 
     <?php require_once("scripts.html"); ?>

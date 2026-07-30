@@ -3,7 +3,7 @@
 <?php require_once("head.html"); ?>
   <body>
     <!--HEADER-->
-    <?php require_once("menu-dropdown.html"); ?>
+    <?php require_once("header.php"); ?>
     <!--FIM DO HEADER-->
     <div class="container-fluid py-5 w-75">
     <div class="d-flex p-2 justify-content-center">
@@ -247,7 +247,7 @@
             </div>
 
     <!--FOOTER-->
-    <?php require_once("footer.html"); ?>
+    <?php require_once("footer.php"); ?>
     <!--FIM DO FOOTER-->
 
     <?php require_once("scripts.html"); ?>
