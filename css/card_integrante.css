@@ -1,0 +1,49 @@
+.integrantes-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-integrante {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.card-integrante-imagem {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card-integrante-corpo {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-integrante-nome {
+    font-weight: 200;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.card-integrante-cargo {
+    color: #666666;
+}
+
+.card-integrante-botao {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
