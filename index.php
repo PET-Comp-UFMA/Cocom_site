@@ -1,13 +1,14 @@
 <!doctype html>
 <html lang="pt-BR">
-    <?php
-        $cssFiles = ['css/card_integrante.css'];
-        $title = "COCOM";
-        include "includes/head.php";
-    ?>
-  <body>
+<?php
+$cssFiles = ['css/card_integrante.css'];
+$title = "COCOM";
+include "includes/head.php";
+?>
+
+<body>
     <!--HEADER-->
-    <?php include "includes/header.php" ?>
+    <?php require_once("components/header.php"); ?>
     <!--FIM DO HEADER-->
 
     <!--CARROSSEL-->
@@ -39,20 +40,21 @@
         </div>
         <div class="integrantes-container">
             <?php
-                require "includes/functions.php";
-                $integrantes = lerJson("coordenadores.json");
-                foreach ($integrantes as $integrante) {
-                    include "components/card_integrante.php";
-                }
+            require "includes/functions.php";
+            $integrantes = lerJson("coordenadores.json");
+            foreach ($integrantes as $integrante) {
+                include "components/card_integrante.php";
+            }
             ?>
         </div>
     </div>
     <!--FIM DOS INTEGRANTES-->
 
     <!--FOOTER-->
-    <?php include "includes/footer.php" ?>
+    <?php require_once("components/footer.php"); ?>
     <!--FIM DO FOOTER-->
 
     <?php include "includes/scripts.php" ?>
-  </body>
+</body>
+
 </html>
