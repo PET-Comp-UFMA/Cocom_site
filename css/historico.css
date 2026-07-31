@@ -1,0 +1,154 @@
+/* Seção */
+.historico {
+    padding: 50px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+}
+
+/* Container */
+.historico .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Cabeçalho */
+.historico-header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #152638;
+    margin-bottom: 8px;
+}
+
+.historico-header p {
+    font-size: 1rem;
+    color: #8a8f98;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.historico hr {
+    border: none;
+    border-top: 1px solid #e4e4e4;
+    margin-bottom: 25px;
+}
+
+/* Conteúdo */
+.historico-conteudo p {
+    font-size: 0.98rem;
+    color: #6f6f6f;
+    line-height: 1.9;
+    text-align: justify;
+    margin-bottom: 18px;
+}
+
+/* Caixa da comissão */
+.comissao {
+    background: #f3f5f8;
+    border-radius: 12px;
+    padding: 25px 30px;
+    margin: 30px 0;
+    border: 1px solid #e6e6e6;
+}
+
+.comissao h2 {
+    font-size: 1.35rem;
+    color: #152638;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.comissao ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.comissao li {
+    color: #6f6f6f;
+    font-size: 0.96rem;
+    line-height: 2;
+}
+
+
+.corpo-docente {
+    padding: 50px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.corpo-docente .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.corpo-docente h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #152638;
+    margin-bottom: 30px;
+}
+
+/* ==========================
+   Tabela
+========================== */
+
+.tabela-docentes {
+    border: 1px solid #e5e8ec;
+    border-radius: 14px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.tabela-docentes table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela-docentes thead {
+    background: #f5f7fa;
+}
+
+.tabela-docentes thead th {
+    padding: 20px;
+    text-align: left;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #152638;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    border-bottom: 1px solid #e5e8ec;
+}
+
+.tabela-docentes tbody td {
+    padding: 22px 20px;
+    font-size: 0.96rem;
+    color: #6d6d6d;
+    border-bottom: 1px solid #eceff3;
+    vertical-align: middle;
+}
+
+.tabela-docentes tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.tabela-docentes tbody tr:hover {
+    background: #fafbfc;
+    transition: 0.2s;
+}
+
+/* Largura das colunas */
+
+.tabela-docentes th:nth-child(1),
+.tabela-docentes td:nth-child(1) {
+    width: 55%;
+}
+
+.tabela-docentes th:nth-child(2),
+.tabela-docentes td:nth-child(2) {
+    width: 20%;
+}
+
+.tabela-docentes th:nth-child(3),
+.tabela-docentes td:nth-child(3) {
+    width: 25%;
+}
