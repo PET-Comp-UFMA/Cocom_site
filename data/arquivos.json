@@ -12,11 +12,19 @@
             },
             {
                 "titulo": "RESOLUÇÃO Nº 4.073-CONSEPE",
-                "arquivo": "assets/documentos/PPC2026/resolucao.pdf"
+                "arquivo": "uploads/PPC 2020/resolucao-4073-2025-consepe.pdf"
             },
             {
                 "titulo": "Sequência Aconselhada de Disciplinas (2026)",
-                "arquivo": "assets/documentos/PPC2026/sequencia.pdf"
+                "arquivo": "uploads/PPC 2020/Sequencia aconselhada 2026.pdf"
+            },
+            {
+                "titulo": "Equivalência Curricular (2026)",
+                "arquivo": "uploads/PPC 2020/Equivalencia Curricular MATRIZ 2026.pdf"
+            },
+            {
+                "titulo": "Disciplinas Optativas - Grupo I e II (2026)",
+                "arquivo": "uploads/PPC 2020/Disciplinas optativas 2026.pdf"
             }
         ]
     },
@@ -24,8 +32,8 @@
         "titulo": "PPC2026 (FORMULÁRIOS)",
         "documentos": [
             {
-                "titulo": "TCC (Formulário)",
-                "arquivo": "assets/documentos/PPC2026/formularios/tcc.pdf"
+                "titulo": "Instruções de Estágio",
+                "arquivo": "uploads/formularios/instruções_Estagio.pdf"
             },
             {
                 "titulo": "Atividades Complementares",

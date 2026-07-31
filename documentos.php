@@ -9,7 +9,7 @@
     ?>
   <body>
     <!--HEADER-->
-    <?php include "includes/header.php" ?>
+    <?php include "components/header.php" ?>
     <!--FIM DO HEADER-->
     <main class="documentos">
         <div class="documentos_cabecalho">
@@ -28,7 +28,7 @@
     
 
     <!--FOOTER-->
-        <?php include "includes/footer.php" ?>
+        <?php include "components/footer.php" ?>
     <!--FIM DO FOOTER-->
 
     <?php include "includes/scripts.php" ?>
