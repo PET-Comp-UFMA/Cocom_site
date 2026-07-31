@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="pt-BR">
-<?php require_once("includes/head.html"); ?>
+<?php include "includes/head.php"; ?>
 
 <body>
     <!--HEADER-->
-    <?php require_once("header.php"); ?>
+    <?php require_once("components/header.php"); ?>
     <!--FIM DO HEADER-->
 
     <!--NOTÍCIAS-->
@@ -137,10 +137,10 @@
     <!--FIM DAS NOTÍCIAS-->
 
     <!--FOOTER-->
-    <?php require_once("footer.php"); ?>
+    <?php require_once("components/footer.php"); ?>
     <!--FIM DO FOOTER-->
 
-    <?php require_once("includes/scripts.html"); ?>
+    <?php include "includes/scripts.php"; ?>
 </body>
 
 </html>

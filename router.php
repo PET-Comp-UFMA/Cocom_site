@@ -30,7 +30,7 @@ function route($path, $routes)
 {
     foreach ($routes as $pattern => $handler) {
 
-        if (preg_match("#^$pattern/?$#", $path, , $matches)) {
+        if (preg_match("#^$pattern/?$#", $path, $matches)) {
             // Remove o primeiro elemento (match completo)
             array_shift($matches);
 
@@ -38,7 +38,6 @@ function route($path, $routes)
             call_user_func_array($handler, $matches);
             exit; // Importante para não continuar processando
         }
-
     }
 
     http_response_code(404);

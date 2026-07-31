@@ -8,7 +8,7 @@ include "includes/head.php";
 
 <body>
     <!--HEADER-->
-    <?php require_once("header.php"); ?>
+    <?php require_once("components/header.php"); ?>
     <!--FIM DO HEADER-->
 
     <!--CARROSSEL-->
@@ -51,7 +51,7 @@ include "includes/head.php";
     <!--FIM DOS INTEGRANTES-->
 
     <!--FOOTER-->
-    <?php require_once("footer.php"); ?>
+    <?php require_once("components/footer.php"); ?>
     <!--FIM DO FOOTER-->
 
     <?php include "includes/scripts.php" ?>
