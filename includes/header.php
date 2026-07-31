@@ -1,8 +1,8 @@
 <div id="header">
 <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="index.php">
-                    <img src="assets/banner.png" class="img-fluid"/>
+                <a class="navbar-brand" href="">
+                    <img src="assets/novalogo.png" class="img-fluid"/>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -10,19 +10,19 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item ">
-                    <a class="nav-link" aria-current="page" href="index.php">Home</a>
+                    <a class="nav-link" aria-current="page" href="">Home</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="https://sigaa.ufma.br/sigaa/link/public/curso/curriculo/86106" target="_blank">Currículo</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="noticias.php">Notícias</a>
+                    <a class="nav-link" href="noticias">Notícias</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="documentos.php">Documentos</a>
+                    <a class="nav-link" href="documentos">Documentos</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" aria-current="page" href="historico_curso.php">Histórico do Curso</a>
+                        <a class="nav-link" aria-current="page" href="historico">Histórico do Curso</a>
                     </li>
                 </ul>
                 </div>
