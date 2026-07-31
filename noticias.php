@@ -1,15 +1,16 @@
 <!doctype html>
 <html lang="pt-BR">
-<?php require_once("includes/head.html"); ?>
-  <body>
+<?php include "includes/head.php"; ?>
+
+<body>
     <!--HEADER-->
-    <?php require_once("includes/header.html"); ?>
+    <?php require_once("components/header.php"); ?>
     <!--FIM DO HEADER-->
 
     <!--NOTÍCIAS-->
     <div id="noticias">
         <div class="container w-75 py-3">
-            <div class="d-flex p-2 justify-content-center"> 
+            <div class="d-flex p-2 justify-content-center">
                 <h1>Notícias</h1>
             </div>
             <!--Notícia 1-->
@@ -58,7 +59,7 @@
                     <img src="assets/logo.png" alt="" class="img-noticia px-3 py-3">
                 </div>
                 <div class="col-sm-9 py-3">
-                    <p>Caros,</p> 
+                    <p>Caros,</p>
                     <p>A nova ata de defesa de monografia ja está disponível.</p>
                 </div>
                 <div class="col-sm-12 mt-2">
@@ -94,15 +95,16 @@
                     <p style="text-align: justify;">Encaminhando.<br>
 
                         Prezados(as),<br>
-                        
-                        A pedido da PROEN solicitamos que divulguem aos alunos dos seus recpectivos 
-                        Cursos, ingressantes no semestre 2012.1, que a CAPES está lançando o  "Programa 
-                        Jovens Talentos para Ciência", cuja a inscrição será feita pelo Coordenador do 
-                        Curso no período de 15 a 23/03 e a prova para seleção será no dia 29/03. 
-                        <a href="https://www.gov.br/capesimages/stories/download/diversos/ProgramaJovensTalentosParaCiencia_Instrucoes.pdf">Segue 
-                        em anexo o material informativo</a> e maiores informações passaremos pessoalmente 
-                        ou através do contato da PROEN: Janyele - DIAC/PROEN e-mail 
-                        janyele.proenu<a href="http://groups.google.com/groups/unlock?_done=/group/cocomufma/browse_thread/thread/f956ec0efe495ed6&msg=1f5091bc3978e60c">...</a>@gmail.com.</p>
+
+                        A pedido da PROEN solicitamos que divulguem aos alunos dos seus recpectivos
+                        Cursos, ingressantes no semestre 2012.1, que a CAPES está lançando o "Programa
+                        Jovens Talentos para Ciência", cuja a inscrição será feita pelo Coordenador do
+                        Curso no período de 15 a 23/03 e a prova para seleção será no dia 29/03.
+                        <a href="https://www.gov.br/capesimages/stories/download/diversos/ProgramaJovensTalentosParaCiencia_Instrucoes.pdf">Segue
+                            em anexo o material informativo</a> e maiores informações passaremos pessoalmente
+                        ou através do contato da PROEN: Janyele - DIAC/PROEN e-mail
+                        janyele.proenu<a href="http://groups.google.com/groups/unlock?_done=/group/cocomufma/browse_thread/thread/f956ec0efe495ed6&msg=1f5091bc3978e60c">...</a>@gmail.com.
+                    </p>
                 </div>
                 <div class="col-sm-12 mt-2">
                     <h6>Postado em 19/03/2012</h6>
@@ -122,7 +124,7 @@
                     <p>Através deste site, a COCOM avisará sobre estágio, eventos, oferta de disciplinas...</p>
                     <p>Em breve, também estarão disponíveis novas funcionalidades. Aguarde.</p>
 
-                    <p>Coordenação</p> 
+                    <p>Coordenação</p>
                 </div>
                 <div class="col-sm-12 mt-2">
                     <h6>Postado em 16/03/2012</h6>
@@ -130,14 +132,15 @@
             </div>
             <div class="line-gray"></div>
         </div>
-        </div>
+    </div>
     </div>
     <!--FIM DAS NOTÍCIAS-->
 
     <!--FOOTER-->
-    <?php require_once("includes/footer.html"); ?>
+    <?php require_once("components/footer.php"); ?>
     <!--FIM DO FOOTER-->
 
-    <?php require_once("includes/scripts.html"); ?>
-  </body>
+    <?php include "includes/scripts.php"; ?>
+</body>
+
 </html>

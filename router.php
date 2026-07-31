@@ -1,14 +1,16 @@
-<?php $root = trim(dirname($_SERVER['SCRIPT_NAME']), '/\\');
+<?php
+
+$root = trim(dirname($_SERVER['SCRIPT_NAME']), '/\\');
+
 ?>
-<base href="<?= $root ? "/$root/" : '/' ?>">
+
+<base href="<?= $root ? "/{$root}/" : "/" ?>">
 
 <?php
 
-$param = "[/]?(\w*)";
-
 $routes = [
 
-    ($root ? "$root" : "") => function () {
+    ($root ? $root : "") => function () {
         require 'index.php';
     },
 
@@ -16,8 +18,8 @@ $routes = [
         require 'noticias.php';
     },
 
-    ($root ? "$root/historico_curso" : "historico") => function () {
-        require 'historico_curso.php';
+    ($root ? "$root/historico" : "historico") => function () {
+        require 'historico.php';
     },
 
     ($root ? "$root/documentos" : "documentos") => function () {
@@ -30,15 +32,16 @@ function route($path, $routes)
 {
     foreach ($routes as $pattern => $handler) {
 
-        if (preg_match("#^$pattern/?$#", $path, , $matches)) {
-            // Remove o primeiro elemento (match completo)
+        if (preg_match("#^{$pattern}/?$#", $path, $matches)) {
+
+            // Remove o match completo
             array_shift($matches);
 
-            // Chama o handler com os parâmetros capturados
+            // Executa a função da rota
             call_user_func_array($handler, $matches);
-            exit; // Importante para não continuar processando
-        }
 
+            exit;
+        }
     }
 
     http_response_code(404);
@@ -47,7 +50,8 @@ function route($path, $routes)
 }
 
 $path = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
-$path = ltrim($path, '/');
+$path = trim($path, '/');
 
 route($path, $routes);
+
 ?>
