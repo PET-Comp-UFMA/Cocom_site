@@ -15,7 +15,7 @@
         </a>
         <a class="nav-item" href="noticias.php">Notícias</a>
         <a class="nav-item" href="documentos.php">Documentos</a>
-        <a class="nav-item" href="historico_curso.php">Histórico do Curso</a>
+        <a class="nav-item" href="historico.php">Histórico do Curso</a>
     </nav>
 </header>
 

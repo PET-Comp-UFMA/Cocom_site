@@ -18,8 +18,8 @@ $routes = [
         require 'noticias.php';
     },
 
-    ($root ? "$root/historico_curso" : "historico_curso") => function () {
-        require 'historico_curso.php';
+    ($root ? "$root/historico" : "historico") => function () {
+        require 'historico.php';
     },
 
     ($root ? "$root/documentos" : "documentos") => function () {
