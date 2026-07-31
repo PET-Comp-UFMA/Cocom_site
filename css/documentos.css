@@ -1,3 +1,7 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* ===========================
    DOCUMENTOS
 =========================== */
@@ -14,8 +18,8 @@
 }
 
 .documentos_titulo {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
     font-weight: bold;
     color: #152638;
     margin-bottom: 8px;
