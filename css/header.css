@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #152638;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    height: 96px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1), 0px 2px 2px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1000;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.header-logo-link {
+    text-decoration: none !important;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.logo-letter {
+    width: 33px;
+    height: 33px;
+    background-color: #ffffff;
+    border-radius: 4.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #152637;
+    font-weight: 700;
+    font-size: 22.6px;
+    line-height: 1;
+}
+
+.logo-letter.last {
+    background-color: #53ceb9;
+}
+
+.header-title {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.2;
+    margin: 0;
+    white-space: pre-wrap;
+    text-align: left;
+}
+
+.header-nav {
+    display: flex;
+    gap: 32px;
+    height: 100%;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: #ffffff !important;
+    text-decoration: none !important;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.375px;
+    position: relative;
+    padding: 0 8px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.nav-item:hover {
+    color: #53ceb9 !important;
+}
+
+.nav-item.active {
+    color: #53ceb9 !important;
+}
+
+.nav-item.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 2px;
+    right: 2px;
+    height: 4px;
+    background-color: #53ceb9;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.nav-item-dropdown {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.chevron-down {
+    width: 14px;
+    height: 14px;
+    fill: currentColor;
+    margin-top: -2px;
+}
+
+@media (max-width: 991px) {
+    .custom-header {
+        height: auto;
+        flex-direction: column;
+        padding: 16px 24px;
+        gap: 16px;
+    }
+    .header-nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        height: auto;
+    }
+    .nav-item {
+        height: 40px;
+    }
+    .nav-item.active::after {
+        border-radius: 6px;
+    }
+}
