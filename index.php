@@ -14,7 +14,9 @@
 </head>
 
 <body>
-
+    <!--HEADER-->
+    <?php require_once("components/header.php"); ?>
+    <!--FIM DO HEADER-->
     <!-- Banner -->
 
     <section class="banner" >
@@ -86,7 +88,11 @@
 
         </div>
     </section>
-
+  
+    <!--FOOTER-->
+    <?php require_once("components/footer.php"); ?>
+    <!--FIM DO FOOTER-->
+  
     <script src="js/index.js"></script>
 
 </body>
