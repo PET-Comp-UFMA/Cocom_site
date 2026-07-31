@@ -1,0 +1,163 @@
+/* ==========================================
+   CABEÇALHO
+========================================== */
+
+.noticias{
+    margin: 50px;
+}
+
+
+.noticias__cabecalho{
+    font-size:2.3rem;
+    font-weight:700;
+    color:#1F2D3D;
+    border-bottom: 1px solid #1F2D3D;
+}
+
+
+.noticias__titulo{
+    margin: 0px;
+    font-size:2rem;
+    font-weight:900;
+
+}
+
+.noticias__descricao{
+    margin: 0px;
+    font-size: 1.15rem;
+    padding: 10px 0px 10px 0px;
+    color: #7E7C7E;
+}
+
+/* ==========================================
+   Sessão noticias
+========================================== */
+.noticias__lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 80px 0px 80px;
+}
+.noticias__subtitulo{
+    margin: 20px;
+    padding: 0px;
+    font-size:3rem;
+    font-weight:700;
+    border-bottom: 3px solid #1F2D3D;
+}
+
+/* ==========================================
+   CARD
+========================================== */
+
+.noticia-card{
+    width: 100%;
+    padding:28px 10px;
+    border-bottom:1px solid #DADADA;
+}
+
+.noticia-card:last-child{
+    border-bottom:none;
+}
+
+
+/* ==========================================
+   TITULO
+========================================== */
+
+.noticia-card__titulo{
+    font-size:1.9rem;
+    font-weight:600;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    color:#222;
+    margin-bottom:22px;
+}
+
+
+/* ==========================================
+   CORPO
+========================================== */
+
+.noticia-card__conteudo{
+    display:flex;
+    align-items:flex-start;
+    gap:45px;
+}
+
+
+/* ==========================================
+   IMAGEM
+========================================== */
+
+.noticia-card__imagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.noticia-card__imagem img{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+
+/* ==========================================
+   TEXTO
+========================================== */
+
+.noticia-card__texto{
+    font-size:1.3rem;
+    color:#444;
+    line-height:1;
+}
+
+.noticia-card__texto p{
+    margin-bottom:14px;
+}
+
+
+/* ==========================================
+   DATA
+========================================== */
+
+.noticia-card__data{
+    margin-top:18px;
+    margin-left:10px;
+    font-size:1.2rem;
+    font-weight: 600;
+    color:#1F2D3D;
+}
+
+
+/* ==========================================
+   RESPONSIVO
+========================================== */
+
+@media(max-width:768px){
+
+    .noticia-card__conteudo{
+        flex-direction:column;
+        align-items:center;
+        text-align:center;
+    }
+
+    .noticia-card__imagem img{
+        width:130px;
+        height:130px;
+    }
+
+    .noticia-card__texto{
+        text-align:left;
+    }
+
+    .noticia-card__data{
+        text-align:center;
+        margin-left:0;
+    }
+
+}

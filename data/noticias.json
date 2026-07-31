@@ -1,0 +1,23 @@
+[
+        {
+            "titulo": "Código das disciplinas",
+            "imagem": "assets/Logococomccirc.png",
+            "data": "04/11/2026",
+            "conteudo": "<p>Os códigos das disciplinas podem ser obtidos no SIGAA.</p><p>Ensino, Consultar Estrutura Curricular.</p>",
+            "link": ""
+        },
+        {
+            "titulo": "Não usar para solicitações a COCOM",
+            "imagem": "assets/Logococomccirc.png",
+            "data": "08/11/2026",
+            "conteudo": "<p>Favor não usar este site para solicitações a Coordenadoria.</p><p>Este é um site apenas informativo.</p><p>Para solicitações a Coordenadoria usar exclusivamente o email: <strong>cocom@ufma.br</strong></p><p>Grato pela atenção.</p>",
+            "link": ""
+        },
+        {
+            "titulo": "Novo Site",
+            "imagem": "assets/Logococomccirc.png",
+            "data":  "04/11/2026",
+            "conteudo": "<p>Sejam bem vindos ao novo site da Coordenação de Ciência da Computação da UFMA.</p><p>Este é resultado de um trabalho de alunos da disciplina de Lab. de Eng. de Software em prol da comunidade do curso.</p><p>Através deste site, a COCOM avisará sobre estágio, eventos, oferta de disciplinas...</p><p>Em breve, também estarão disponíveis novas funcionalidades. Aguarde.</p><br><p>Coordenação</p>",
+            "link": ""
+        }
+]
