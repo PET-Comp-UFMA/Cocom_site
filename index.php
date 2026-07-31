@@ -17,15 +17,18 @@
 
     <!-- Banner -->
 
-    <section class="banner">
+    <section class="banner" >
         <div class="banner-texto">
-            <p class="titulo-menor">
-                SEJA
-            </p>
-            <h1>
-                BEM-VINDO!
-            </h1>
-            <button>
+            <div class="texto">
+                <p class="titulo-menor">
+                    SEJA
+                </p>
+                <h1>
+                    BEM-VINDO!
+                </h1>
+            </div>
+
+            <button type="button" id="btn-sobre">
                 SOBRE A COCOM
             </button>
         </div>
@@ -37,7 +40,7 @@
 
     <!-- Sobre -->
 
-    <section class="sobre">
+    <section class="sobre" id="sobre">
         <h2>Sobre a COCOM</h2>
 
         <p>
@@ -54,35 +57,37 @@
         <div class="cards">
 
             <div class="card">
-                <img src="assets/prof1.png">
+                <img src="assets/Prof.Darlan.png">
                 <h3>Prof. Dr. Darlan Bruno Pontes Quintanilha</h3>
                 <p>Coordenador</p>
-                <button>VISITAR</button>
+                <button>CONTATO</button>
             </div>
 
             <div class="card">
-                <img src="assets/prof2.png">
+                <img src="assets/Prof.Thiago.png">
                 <h3>Prof. Dr. Thiago Bonini</h3>
                 <p>Coordenador ABI - IA</p>
-                <button>VISITAR</button>
+                <button>CONTATO</button>
             </div>
 
             <div class="card">
-                <img src="assets/prof3.png">
+                <img src="assets/Prof.Francisco.png">
                 <h3>Prof. Dr. Francisco Glaubos</h3>
                 <p>Coordenador ABI - Núcleo Comum</p>
-                <button>VISITAR</button>
+                <button>CONTATO</button>
             </div>
 
             <div class="card">
-                <img src="assets/prof4.png">
+                <img src="assets/Leidiane.png">
                 <h3>Leidiane Melo</h3>
                 <p>Administração</p>
-                <button>VISITAR</button>
+                <button>CONTATO</button>
             </div>
 
         </div>
     </section>
+
+    <script src="js/index.js"></script>
 
 </body>
 </html>
