@@ -1,0 +1,134 @@
+/* ===========================
+   DOCUMENTOS
+=========================== */
+
+.documentos {
+    width: min(1100px, 90%);
+    margin: 80px auto;
+}
+
+.documentos_cabecalho {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #E5E7EB;
+    padding-bottom: 10px;
+}
+
+.documentos_titulo {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #152638;
+    margin-bottom: 8px;
+}
+
+.documentos_descricao {
+    font-size: 1.15rem;
+    color: #7E7C7E;
+}
+
+
+/* ===========================
+   GRUPO
+=========================== */
+
+.grupo-documentos {
+    margin-bottom: 45px;
+}
+
+
+/* Barra cinza */
+
+.grupo_documentos_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 10px 15px 10px 15px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: .82rem;
+    font-weight: 600;
+    letter-spacing: .06em;
+    color: #1F2D3D;
+}
+
+
+/* ===========================
+   ITEM
+=========================== */
+
+.documentos_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 18px;
+    border-bottom: 1px solid #ECECEC;
+    transition: background .2s;
+}
+
+.documentos_item:hover {
+    background: #FAFAFA;
+}
+
+.documentos_item-titulo {
+    color: #404040;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    flex: 1;
+    margin-right: 20px;
+}
+
+
+/* ===========================
+   BOTÃO DOWNLOAD
+=========================== */
+
+.documentos__download {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F4F5F7;
+    border-radius: 50%;
+    transition: .2s;
+}
+
+.documentos__download:hover {
+    background: #E9ECEF;
+}
+
+.documentos__download-icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+
+/* ===========================
+   RESPONSIVO
+=========================== */
+
+@media(max-width:768px){
+
+    .documentos{
+        width:92%;
+    }
+
+    .documentos__titulo{
+        font-size:2rem;
+    }
+
+    .documentos__grupo-header{
+        padding:15px;
+    }
+
+    .documentos__item{
+        padding:15px;
+    }
+
+    .documentos__item-titulo{
+        font-size:.9rem;
+    }
+
+}

@@ -1,0 +1,36 @@
+[
+    {
+        "titulo": "PPC2026",
+        "documentos": [
+            {
+                "titulo": "Solicitação de Migração de Currículo (Requerimento)",
+                "arquivo": "uploads/PPC 2020/Solicitação de migração de currículo (requerimento).doc"
+            },
+            {
+                "titulo": "Projeto Pedagógico PPC 2026",
+                "arquivo": "assets/documentos/PPC2026/ppc2026.pdf"
+            },
+            {
+                "titulo": "RESOLUÇÃO Nº 4.073-CONSEPE",
+                "arquivo": "assets/documentos/PPC2026/resolucao.pdf"
+            },
+            {
+                "titulo": "Sequência Aconselhada de Disciplinas (2026)",
+                "arquivo": "assets/documentos/PPC2026/sequencia.pdf"
+            }
+        ]
+    },
+    {
+        "titulo": "PPC2026 (FORMULÁRIOS)",
+        "documentos": [
+            {
+                "titulo": "TCC (Formulário)",
+                "arquivo": "assets/documentos/PPC2026/formularios/tcc.pdf"
+            },
+            {
+                "titulo": "Atividades Complementares",
+                "arquivo": "assets/documentos/PPC2026/formularios/atividades.pdf"
+            }
+        ]
+    }
+]

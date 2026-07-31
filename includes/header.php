@@ -19,7 +19,7 @@
                     <a class="nav-link" href="noticias">Notícias</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="documentos">Documentos</a>
+                    <a class="nav-link" href="documentos.php">Documentos</a>
                     </li>
                     <li class="nav-item ">
                         <a class="nav-link" aria-current="page" href="historico">Histórico do Curso</a>
