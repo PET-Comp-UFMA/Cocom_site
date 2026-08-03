@@ -3,28 +3,28 @@
         "titulo": "PPC2026",
         "documentos": [
             {
-                "titulo": "Solicitação de Migração de Currículo (Requerimento)",
-                "arquivo": "uploads/PPC 2020/Solicitação de migração de currículo (requerimento).doc"
+                "titulo": "PCC 2025-2026",
+                "arquivo": "uploads/PCC2026/PPC_ABI_ComputacaoCINCIADACOMPUTAO.pdf"
             },
             {
-                "titulo": "Projeto Pedagógico PPC 2026",
-                "arquivo": "assets/documentos/PPC2026/ppc2026.pdf"
+                "titulo": "Solicitação de Migração de Currículo (Requerimento)",
+                "arquivo": "uploads/PPC2026/Solicitação de migração de currículo (requerimento).doc"
             },
             {
                 "titulo": "RESOLUÇÃO Nº 4.073-CONSEPE",
-                "arquivo": "uploads/PPC 2020/resolucao-4073-2025-consepe.pdf"
+                "arquivo": "uploads/PPC2026/resolucao-4073-2025-consepe.pdf"
             },
             {
                 "titulo": "Sequência Aconselhada de Disciplinas (2026)",
-                "arquivo": "uploads/PPC 2020/Sequencia aconselhada 2026.pdf"
+                "arquivo": "uploads/PPC2026/Sequencia aconselhada 2026.pdf"
             },
             {
                 "titulo": "Equivalência Curricular (2026)",
-                "arquivo": "uploads/PPC 2020/Equivalencia Curricular MATRIZ 2026.pdf"
+                "arquivo": "uploads/PPC2026/Equivalencia Curricular MATRIZ 2026.pdf"
             },
             {
                 "titulo": "Disciplinas Optativas - Grupo I e II (2026)",
-                "arquivo": "uploads/PPC 2020/Disciplinas optativas 2026.pdf"
+                "arquivo": "uploads/PPC2026/Disciplinas optativas 2026.pdf"
             }
         ]
     },
@@ -33,7 +33,43 @@
         "documentos": [
             {
                 "titulo": "Instruções de Estágio",
-                "arquivo": "uploads/formularios/instruções_Estagio.pdf"
+                "arquivo": "uploads/formularios/novos/instruções_Estagio.pdf"
+            },
+            {
+                "titulo": "Estágio - Modelo de Relatório",
+                "arquivo": "uploads/formularios/novos/NOVA_Template_Relatrio_Estgio_COCOM_PPC2020.docx"
+            },
+            {
+                "titulo": "Estágio Obrigatório - Ficha de Avaliação",
+                "arquivo": "uploads/formularios/novos/Modelo_avaliacao_estagio_1.doc"
+            },
+            {
+                "titulo": "Formulário de ação de extensão",
+                "arquivo": "uploads/formularios/novos/Formulario_Ativ_Extenso.docx"
+            },
+            {
+                "titulo": "Inscrição trabalho de conclusão de curso",
+                "arquivo": "uploads/formularios/novos/Inscricao_trabalho_de_concluso_de_curso.docx"
+            },
+            {
+                "titulo": "Modelo de Procuração",
+                "arquivo": "uploads/formularios/novos/Procurao_-_modelo_1.docx"
+            },
+            {
+                "titulo": "Pedido de Autorização para a Defesa Pública de TCC",
+                "arquivo": "uploads/formularios/novos/Formulario_de__Solicitacao_de__Defesa__de__Monografia.docx"
+            },
+            {
+                "titulo": "Requerimento atividades domiciliares",
+                "arquivo": "uploads/formularios/novos/requerimentoexercicio_domiciliar_1.docx"
+            },
+            {
+                "titulo": "Requerimento de Atividades Complementares",
+                "arquivo": "uploads/formularios/novos/Ativ_Complementar_modelo_1.docx"
+            },
+            {
+                "titulo": "Requerimento de Colação de Grau Especial",
+                "arquivo": "uploads/formularios/novos/Formulrio_-_Requerimento_-_Colao_de_Grau_Especial.docx"
             }
         ]
     }
