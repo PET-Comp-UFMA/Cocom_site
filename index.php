@@ -21,22 +21,14 @@
 
     <section class="banner" >
         <div class="banner-texto">
-            <div class="texto">
-                <p class="titulo-menor">
-                    SEJA
-                </p>
-                <h1>
-                    BEM-VINDO!
-                </h1>
-            </div>
+                <div class="texto">
+                    <p class="titulo-menor">SEJA</p>
+                    <h1>BEM-VINDO!</h1>
+                </div>
 
-            <button type="button" id="btn-sobre">
-                SOBRE A COCOM
-            </button>
-        </div>
-
-        <div class="banner-imagem">
-            <img src="assets/logo-cocom.svg" alt="Logo COCOM">
+                <button type="button" id="btn-sobre">
+                    SOBRE A COCOM
+                </button>
         </div>
     </section>
 
@@ -62,28 +54,36 @@
                 <img src="assets/Prof.Darlan.png">
                 <h3>Prof. Dr. Darlan Bruno Pontes Quintanilha</h3>
                 <p>Coordenador</p>
-                <button>CONTATO</button>
+                <button class="btn-contato" data-email="darlan.quintanilha@ufma.br">
+                    CONTATO
+                </button>
             </div>
 
             <div class="card">
-                <img src="assets/Prof.Thiago.png">
-                <h3>Prof. Dr. Thiago Bonini</h3>
+                <img src="assets/Prof.Tiago.png">
+                <h3>Prof. Dr. Tiago Bonini</h3>
                 <p>Coordenador ABI - IA</p>
-                <button>CONTATO</button>
+                <button class="btn-contato" data-email="tiago.bonini@ufma.br">
+                    CONTATO
+                </button>
             </div>
 
             <div class="card">
                 <img src="assets/Prof.Francisco.png">
                 <h3>Prof. Dr. Francisco Glaubos</h3>
                 <p>Coordenador ABI - Núcleo Comum</p>
-                <button>CONTATO</button>
+                <button class="btn-contato" data-email="francisco.glaubos@ufma.br">
+                    CONTATO
+                </button>
             </div>
 
             <div class="card">
                 <img src="assets/Leidiane.png">
                 <h3>Leidiane Melo</h3>
                 <p>Administração</p>
-                <button>CONTATO</button>
+                    <button class="btn-contato" data-email="leidiane.melo@ufma.br">
+                        CONTATO
+                    </a>
             </div>
 
         </div>
