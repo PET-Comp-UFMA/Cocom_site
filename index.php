@@ -81,7 +81,7 @@ require "includes/head.php";
                 <img src="assets/Leidiane.png">
                 <h3>Leidiane Melo</h3>
                 <p>Administração</p>
-                    <a href="mailto:felipeyanbp@gmail.com" class="btn-contato" >
+                    <a href="mailto:leidiane.melo@ufma.br" class="btn-contato" >
                         CONTATO
                     </a>
             </div>
