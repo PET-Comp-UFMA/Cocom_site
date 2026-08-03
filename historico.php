@@ -2,12 +2,13 @@
 $cssFiles = ['css/historico.css'];
 $title = "Histórico do Curso";
 include "includes/head.php";
-include "components/header.php"
-    ?>
+
+?>
 
 <body>
 
-
+    <?php include "components/header.php" ?>
+    
     <section class="historico">
         <div class="container">
 

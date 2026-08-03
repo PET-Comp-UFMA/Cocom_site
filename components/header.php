@@ -8,6 +8,11 @@
             <div class="header-title">Coordenação | UFMA<br>Ciência da Computação</div>
         </a>
     </div>
+
+    <button class="menu-toggle" aria-label="Abrir menu">
+        <img src="assets/favicon-v1/btn_menu.png" alt="Menu">
+    </button>
+
     <nav class="header-nav">
         <a class="nav-item" href="index.php">Início</a>
         <a class="nav-item" href="https://sigaa.ufma.br/sigaa/public/curso/curriculo_curso.jsf?lc=pt_BR&lc=pt_BR&id=85766" target="_blank">
@@ -19,16 +24,26 @@
     </nav>
 </header>
 
-<script>
-    document.addEventListener("DOMContentLoaded", () => {
-        const currentPath = window.location.pathname.split('/').pop() || 'index.php';
-        const navItems = document.querySelectorAll('.nav-item');
+<div class="menu-overlay"></div>
 
-        navItems.forEach(item => {
-            const href = item.getAttribute('href');
-            if (href === currentPath) {
-                item.classList.add('active');
-            }
-        });
-    });
+<nav class="mobile-menu">
+
+    <a href="index.php">Início</a>
+
+    <a href="https://sigaa.ufma.br/sigaa/public/curso/curriculo_curso.jsf?lc=pt_BR&id=85766">
+        Currículo
+    </a>
+
+    <a href="noticias.php">Notícias</a>
+
+    <a href="documentos.php">Documentos</a>
+
+    <a href="historico.php">Histórico</a>
+
+</nav>
+
+<script>
+
+
 </script>
+<script src="js/header.js" defer></script>

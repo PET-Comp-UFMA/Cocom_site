@@ -54,7 +54,7 @@ require "includes/head.php";
                 <img src="assets/Prof.Darlan.png">
                 <h3>Prof. Dr. Darlan Bruno Pontes Quintanilha</h3>
                 <p>Coordenador</p>
-                <a class="btn-contato" href="mailto:darlan.quintanilha@ufma.br">
+                <a class="btn-contato" href="https://mail.google.com/mail/u/1/#inbox/FMfcgzQhVhdwnDWqDHsbcZjcWDdjWztB?compose=DmwnWsTRSzxqzlktqVMqrHqplXTTDsQdMlqJBMJgRsHRPlTHKXmtNpWGKMpCRkkPwcGfdRKNGskQ" target="_blank" >
                     CONTATO
                 </a>
             </div>

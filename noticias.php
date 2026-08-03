@@ -21,7 +21,7 @@ require "includes/head.php";
 <body>
 
     <!-- HEADER -->
-    <?php require_once "components/header.php"; ?>
+    <?php include "components/header.php" ?>
 
     <main class="noticias">
 
