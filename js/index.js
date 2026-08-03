@@ -27,13 +27,3 @@ botaoSobre.addEventListener('click', () => {
 
 window.addEventListener('scroll', atualizarBannerNoScroll);
 atualizarBannerNoScroll();
-
-const botoesContato = document.querySelectorAll('.btn-contato');
-
-botoesContato.forEach(botao => {
-    botao.addEventListener('click', () => {
-        const email = botao.dataset.email;
-
-        window.location.href = `mailto:${email}`;
-    });
-});

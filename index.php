@@ -54,34 +54,34 @@
                 <img src="assets/Prof.Darlan.png">
                 <h3>Prof. Dr. Darlan Bruno Pontes Quintanilha</h3>
                 <p>Coordenador</p>
-                <button class="btn-contato" data-email="darlan.quintanilha@ufma.br">
+                <a class="btn-contato" href="mailto:darlan.quintanilha@ufma.br">
                     CONTATO
-                </button>
+                </a>
             </div>
 
             <div class="card">
-                <img src="assets/Prof.Tiago.png">
+                <img src="assets/Prof.Thiago.png">
                 <h3>Prof. Dr. Tiago Bonini</h3>
                 <p>Coordenador ABI - IA</p>
-                <button class="btn-contato" data-email="tiago.bonini@ufma.br">
+                <a class="btn-contato" href="mailto:tiago.bonini@ufma.br">
                     CONTATO
-                </button>
+                </a>
             </div>
 
             <div class="card">
                 <img src="assets/Prof.Francisco.png">
                 <h3>Prof. Dr. Francisco Glaubos</h3>
                 <p>Coordenador ABI - Núcleo Comum</p>
-                <button class="btn-contato" data-email="francisco.glaubos@ufma.br">
+                <a class="btn-contato" href="mailto:francisco.glaubos@ufma.br">
                     CONTATO
-                </button>
+                </a>
             </div>
 
             <div class="card">
                 <img src="assets/Leidiane.png">
                 <h3>Leidiane Melo</h3>
                 <p>Administração</p>
-                    <button class="btn-contato" data-email="leidiane.melo@ufma.br">
+                    <a href="mailto:felipeyanbp@gmail.com" class="btn-contato" >
                         CONTATO
                     </a>
             </div>
