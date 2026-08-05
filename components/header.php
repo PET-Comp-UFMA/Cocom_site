@@ -10,8 +10,11 @@
     </div>
 
     <button class="menu-toggle" aria-label="Abrir menu">
-        <img src="assets/favicon-v1/btn_menu.png" alt="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
     </button>
+
 
     <nav class="header-nav">
         <a class="nav-item" href="index.php">Início</a>
@@ -24,7 +27,13 @@
     </nav>
 </header>
 
+
 <div class="menu-overlay"></div>
+
+<button class="mobile-voltar" aria-label="Fechar menu">
+        <span></span>
+        <span></span>
+</button>
 
 <nav class="mobile-menu">
 

@@ -1,138 +1,344 @@
 *{
-    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Roboto',sans-serif;
 }
 
-/* ===========================
-   DOCUMENTOS
-=========================== */
+/* ==========================================
+   CONTAINER
+========================================== */
 
-.documentos {
-    width: min(1100px, 90%);
-    margin: 80px auto;
+.documentos{
+
+    max-width:1300px;
+
+    margin:60px auto;
+
+    padding:0 40px;
 }
 
-.documentos_cabecalho {
-    margin-bottom: 40px;
-    border-bottom: 1px solid #E5E7EB;
-    padding-bottom: 10px;
+/* ==========================================
+   CABEÇALHO
+========================================== */
+
+.documentos_cabecalho{
+
+    margin-bottom:55px;
+
+    padding-bottom:18px;
+
+    border-bottom:2px solid #1F2D3D;
 }
 
-.documentos_titulo {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    color: #152638;
-    margin-bottom: 8px;
+.documentos_titulo{
+
+    font-family:'Montserrat',sans-serif;
+
+    font-size:2.7rem;
+
+    color:#1F2D3D;
+
+    margin-bottom:12px;
 }
 
-.documentos_descricao {
-    font-size: 1.15rem;
-    color: #7E7C7E;
+.documentos_descricao{
+
+    font-size:1.15rem;
+
+    color:#707070;
+
+    line-height:1.7;
 }
 
+/* ==========================================
+   GRUPOS
+========================================== */
 
-/* ===========================
-   GRUPO
-=========================== */
+.grupo-documentos{
 
-.grupo-documentos {
-    margin-bottom: 45px;
+    margin-bottom:45px;
+
+    border-radius:16px;
+
+    overflow:hidden;
+
+    border:1px solid #E8E8E8;
+
+    background:#fff;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.04);
 }
 
+/* ==========================================
+   CABEÇALHO DO GRUPO
+========================================== */
 
-/* Barra cinza */
+.grupo_documentos_header{
 
-.grupo_documentos_header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #E5E7EB;
-    padding: 10px 15px 10px 15px;
-    text-transform: uppercase;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: .82rem;
-    font-weight: 600;
-    letter-spacing: .06em;
-    color: #1F2D3D;
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:18px 22px;
+
+    background:#E6EBEF;
+
+    color:#1F2D3D;
+
+    font-family:'Montserrat',sans-serif;
+
+    font-size:.95rem;
+
+    font-weight:700;
+
+    text-transform:uppercase;
+
+    letter-spacing:.08em;
+}
+/* ==========================================
+   ITENS
+========================================== */
+
+.documentos_item{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:20px;
+
+    padding:20px 22px;
+
+    border-top:1px solid #ECECEC;
+
+    transition:
+        background .25s ease,
+        padding-left .25s ease;
 }
 
+.documentos_item:first-child{
 
-/* ===========================
-   ITEM
-=========================== */
-
-.documentos_item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 18px 18px;
-    border-bottom: 1px solid #ECECEC;
-    transition: background .2s;
+    border-top:none;
 }
 
-.documentos_item:hover {
-    background: #FAFAFA;
+.documentos_item:hover{
+
+    background:#F8FAFC;
+
+    padding-left:28px;
 }
 
-.documentos_item-titulo {
-    color: #404040;
-    font-size: 1.2rem;
-    line-height: 1.4;
-    flex: 1;
-    margin-right: 20px;
+.documentos_item-titulo{
+
+    flex:1;
+
+    color:#333;
+
+    font-size:1.1rem;
+
+    line-height:1.6;
 }
+/* ==========================================
+   DOWNLOAD
+========================================== */
 
-
-/* ===========================
+/* ==========================================
    BOTÃO DOWNLOAD
-=========================== */
+========================================== */
 
-.documentos__download {
-    width: 36px;
-    height: 36px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #F4F5F7;
-    border-radius: 50%;
-    transition: .2s;
+.documentos__download{
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:8px;
+
+    min-width:46px;
+
+    height:46px;
+
+    padding:0 14px;
+
+    border-radius:50px;
+
+    background:#F3F5F7;
+
+    text-decoration:none;
+
+    transition:
+        background .25s ease,
+        transform .25s ease,
+        box-shadow .25s ease;
 }
 
-.documentos__download:hover {
-    background: #E9ECEF;
+.documentos__download:hover{
+
+    background:#DCEEF2;
+
+    transform:translateY(-2px);
+
+    box-shadow:0 6px 16px rgba(21,38,56,.15);
 }
 
-.documentos__download-icon {
-    width: 18px;
-    height: 18px;
-    object-fit: contain;
+.documentos__download-icon{
+
+    width:20px;
+
+    height:20px;
+
+    object-fit:contain;
 }
 
+.documentos__download span{
 
-/* ===========================
-   RESPONSIVO
-=========================== */
+    display:none;
 
-@media(max-width:768px){
+    color:#1F2D3D;
+
+    font-size:.95rem;
+
+    font-weight:600;
+}
+
+@media (max-width:1024px){
 
     .documentos{
-        width:92%;
+
+        padding:0 30px;
     }
 
-    .documentos__titulo{
+    .documentos_titulo{
+
+        font-size:2.3rem;
+    }
+
+    .grupo_documentos_header{
+
+        padding:16px 18px;
+    }
+
+    .documentos_item{
+
+        padding:18px;
+    }
+
+    .documentos_item-titulo{
+
+        font-size:1rem;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .documentos{
+
+        margin:40px auto;
+
+        padding:0 18px;
+    }
+
+    .documentos_cabecalho{
+
+        margin-bottom:35px;
+    }
+
+    .documentos_titulo{
+
         font-size:2rem;
     }
 
-    .documentos__grupo-header{
-        padding:15px;
+    .documentos_descricao{
+
+        font-size:1rem;
     }
 
-    .documentos__item{
-        padding:15px;
+    .grupo_documentos_header{
+
+        padding:15px 18px;
+
+        font-size:.82rem;
     }
 
-    .documentos__item-titulo{
-        font-size:.9rem;
+    .documentos_item{
+
+        padding:18px 16px;
+
+        gap:15px;
     }
 
+    .documentos_item-titulo{
+
+        font-size:.95rem;
+
+        line-height:1.6;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .documentos{
+
+        padding:0 15px;
+    }
+
+    .documentos_titulo{
+
+        font-size:1.8rem;
+    }
+
+    .documentos_descricao{
+
+        font-size:.95rem;
+    }
+
+    .grupo_documentos_header{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:6px;
+    }
+
+    .documentos_item{
+
+        flex-direction:column;
+
+        align-items:center;
+
+        text-align:center;
+
+        gap:18px;
+    }
+
+    .documentos_item-titulo{
+
+        width:100%;
+
+        margin:0;
+    }
+
+    .documentos__download{
+
+        width:170px;
+
+        justify-content:center;
+
+        align-self:center;
+    }
+
+    .documentos__download span{
+
+        display:inline;
+    }
 }

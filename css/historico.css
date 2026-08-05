@@ -1,4 +1,5 @@
 *{
+    margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 /* Seção */
@@ -154,4 +155,112 @@
 .tabela-docentes th:nth-child(3),
 .tabela-docentes td:nth-child(3) {
     width: 25%;
+}
+
+@media (max-width:992px){
+
+    .historico{
+        padding:60px 0;
+    }
+
+    .historico-header h1{
+        font-size:2.5rem;
+    }
+
+    .corpo-docente h1{
+        font-size:2rem;
+    }
+
+    .historico-conteudo p{
+        font-size:1rem;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .historico{
+        padding:40px 0;
+    }
+
+    .historico .container{
+        width:94%;
+    }
+
+    .historico-header h1{
+        font-size:2rem;
+    }
+
+    .historico-header p{
+        font-size:.95rem;
+    }
+
+    .historico-conteudo p{
+        font-size:.95rem;
+        line-height:1.8;
+        text-align:left;
+    }
+
+    .comissao{
+        padding:22px;
+    }
+
+    .comissao h2{
+        font-size:1.2rem;
+    }
+
+    .comissao li{
+        font-size:.92rem;
+    }
+
+    .corpo-docente{
+        margin-top:50px;
+    }
+
+    .corpo-docente h1{
+        font-size:1.8rem;
+    }
+
+    .tabela-docentes{
+        overflow-x:auto;
+        -webkit-overflow-scrolling:touch;
+    }
+
+    .tabela-docentes table{
+        min-width:650px;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .historico-header h1{
+        font-size:1.8rem;
+    }
+
+    .historico-header p{
+        font-size:.9rem;
+    }
+
+    .historico-conteudo p{
+        font-size:.9rem;
+    }
+
+    .comissao{
+        padding:18px;
+    }
+
+    .comissao h2{
+        font-size:1.05rem;
+    }
+
+    .comissao li{
+        font-size:.88rem;
+        line-height:1.6;
+    }
+
+    .corpo-docente h1{
+        font-size:1.6rem;
+    }
+
 }

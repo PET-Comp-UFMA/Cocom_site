@@ -9,12 +9,14 @@
     <a
         href="<?= $documento["arquivo"] ?>"
         download
-        class="documentos_download">
+        class="documentos__download">
 
          <img
             src="assets/download.png"
             alt="Download"
             class="documentos__download-icon">
+
+        <span>Download</span>
 
     </a>
 

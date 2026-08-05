@@ -13,11 +13,13 @@
     padding: 48px 24px;
     display: flex;
     gap: 48px;
+    flex-wrap:wrap;
     justify-content: space-between;
 }
 
 .footer-col {
     flex: 1;
+    min-width:260px;
 }
 
 .footer .title {
@@ -49,11 +51,14 @@
     color: #152638;
     text-decoration: none;
     font-weight: 500;
-    transition: color 0.2s;
+    transition:
+        color .25s ease,
+        padding-left .25s ease;
 }
 
 .footer a:hover {
     color: #2bbaa2;
+    padding-left:4px;
 }
 
 /* Fale Conosco */
@@ -110,4 +115,137 @@
         padding: 40px 24px;
         gap: 40px;
     }
+}
+@media (max-width: 1024px){
+
+    .footer-top{
+
+        gap:32px;
+        padding:40px 32px;
+        flex-wrap:wrap;
+    }
+
+    .footer-col{
+
+        min-width:280px;
+        flex:1 1 calc(50% - 20px);
+    }
+
+    .footer .title{
+
+        font-size:18px;
+    }
+
+    .footer .title.green{
+
+        font-size:22px;
+    }
+
+    .footer li{
+
+        font-size:15px;
+        line-height:22px;
+    }
+
+}
+
+@media (max-width:768px){
+
+    .footer-top{
+
+        flex-direction:column;
+        gap:36px;
+
+        padding:40px 24px;
+    }
+
+    .footer-col{
+
+        width:100%;
+    }
+
+    .footer .title{
+
+        font-size:20px;
+        margin-bottom:18px;
+    }
+
+    .footer .title.green{
+
+        font-size:22px;
+    }
+
+    .footer ul{
+
+        gap:10px;
+    }
+
+    .footer li{
+
+        font-size:15px;
+        line-height:24px;
+    }
+
+    .link-list li{
+
+        gap:10px;
+    }
+
+    .link-list svg{
+
+        width:18px;
+        height:18px;
+    }
+
+    .footer-bottom{
+
+        padding:18px;
+        font-size:13px;
+    }
+
+}
+
+@media (max-width:480px){
+
+    .footer-top{
+
+        padding:32px 20px;
+        gap:30px;
+    }
+
+    .footer .title{
+
+        font-size:18px;
+    }
+
+    .footer .title.green{
+
+        font-size:20px;
+    }
+
+    .footer li{
+
+        font-size:14px;
+        line-height:22px;
+    }
+
+    .contact-list li{
+
+        padding-left:16px;
+    }
+
+    .contact-list li::before{
+
+        width:7px;
+        height:7px;
+
+        top:8px;
+    }
+
+    .footer-bottom{
+
+        font-size:12px;
+        padding:16px;
+    }
+
 }
