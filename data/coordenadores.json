@@ -1,29 +1,26 @@
 [
-     {
-        "nome": "Prof. Dr. Darlan Bruno Pontes",
-        "cargo": "Coordenador",
-        "imagem": "assets/integrantes/darlan.png",
-        "link": "http://deinf.ufma.br/~simara/"
-    },
-
     {
-        "nome": "Prof. Dr. Thiago Bonini",
-        "cargo": "Coordenador ABI - IA",
-        "imagem": "assets/integrantes/tiagobonini.png",
-        "link": "http://deinf.ufma.br/~simara/"
+        "nome": "Prof. Dr. Darlan Bruno Pontes Quintanilha",
+        "cargo": "Coordenador",
+        "imagem": "assets/Prof.Darlan.png",
+        "email": "darlan.quintanilha@ufma.br"
     },
-
+    {
+        "nome": "Prof. Dr. Tiago Bonini",
+        "cargo": "Coordenador ABI - IA",
+        "imagem": "assets/Prof.Thiago.png",
+        "email": "tiago.bonini@ufma.br"
+    },
     {
         "nome": "Prof. Dr. Francisco Glaubos",
         "cargo": "Coordenador ABI - Núcleo Comum",
-        "imagem": "assets/integrantes/glaubos2.png",
-        "link": "http://deinf.ufma.br/~simara/"
+        "imagem": "assets/Prof.Francisco.png",
+        "email": "francisco.glaubos@ufma.br"
     },
-
     {
         "nome": "Leidiane Melo",
         "cargo": "Administração",
-        "imagem": "assets/integrantes/leidiane.png",
-        "link": "http://deinf.ufma.br/~simara/"
+        "imagem": "assets/Leidiane.png",
+        "email": "leidiane.melo@ufma.br"
     }
 ]

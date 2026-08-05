@@ -27,3 +27,33 @@ botaoSobre.addEventListener('click', () => {
 
 window.addEventListener('scroll', atualizarBannerNoScroll);
 atualizarBannerNoScroll();
+
+const toast = document.getElementById("toast-email");
+
+document.querySelectorAll(".btn-contato").forEach(botao => {
+
+    botao.addEventListener("click", async () => {
+
+        const email = botao.dataset.email;
+        try {
+
+            await navigator.clipboard.writeText(email);
+            if (toast) {
+                toast.textContent = `${email} copiado para a área de transferência!`;
+                toast.classList.add("active");
+
+                setTimeout(() => {
+                    toast.classList.remove("active");
+                }, 2500);
+            }
+
+        } catch (error) {
+
+            alert("Não foi possível copiar o e-mail.");
+
+        }
+
+    });
+    
+
+});

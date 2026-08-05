@@ -1,26 +1,15 @@
-<div class="card-integrante">
-    <img
-        class="card-integrante-imagem"
-        src="<?= htmlspecialchars($integrante['imagem']) ?>"
-        alt="<?= htmlspecialchars($integrante['nome']) ?>">
+<div class="card">
 
-    <div class="card-integrante-corpo">
+    <img src="<?= $integrante["imagem"] ?>" alt="<?= $integrante["nome"] ?>">
 
-        <h5 class="card-integrante-nome">
-            <?= htmlspecialchars($integrante['nome']) ?>
-        </h5>
+    <h3><?= $integrante["nome"] ?></h3>
 
-        <p class="card-integrante-cargo">
-            <?= htmlspecialchars($integrante['cargo']) ?>
-        </p>
+    <p><?= $integrante["cargo"] ?></p>
 
-        <?php if (!empty($integrante['link'])): ?>
-            <a
-                href="<?= htmlspecialchars($integrante['link']) ?>"
-                class="card-integrante-botao"
-                target="_blank">
-                Visitar
-            </a>
-        <?php endif; ?>
-    </div>
+    <button
+        class="btn-contato"
+        data-email="<?= $integrante["email"] ?>">
+        CONTATO
+    </button>
+
 </div>

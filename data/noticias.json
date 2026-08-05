@@ -17,7 +17,7 @@
             "titulo": "Novo Site",
             "imagem": "assets/Logococomccirc.png",
             "data":  "04/11/2026",
-            "conteudo": "<p>Sejam bem vindos ao novo site da Coordenação de Ciência da Computação da UFMA.</p><p>Este é resultado de um trabalho de alunos da disciplina de Lab. de Eng. de Software em prol da comunidade do curso.</p><p>Através deste site, a COCOM avisará sobre estágio, eventos, oferta de disciplinas...</p><p>Em breve, também estarão disponíveis novas funcionalidades. Aguarde.</p><br><p>Coordenação</p>",
+            "conteudo": "<p>Sejam bem vindos ao novo site da Coordenação de Ciência da Computação da UFMA.</p><p>Desenvolvido pelo PETComp.</p><p>Através deste site, a COCOM avisará sobre estágio, eventos, oferta de disciplinas...</p><p>Em breve, também estarão disponíveis novas funcionalidades. Aguarde.</p><br><p>Coordenação</p>",
             "link": ""
         }
 ]

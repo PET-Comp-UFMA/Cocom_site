@@ -5,9 +5,9 @@ $title = "COCOM";
 $cssFiles = [
     "css/index.css"
 ];
-
+require_once "includes/functions.php";
 require "includes/head.php";
-
+$integrantes = lerJson("coordenadores.json");
 ?>
 
 <!DOCTYPE html>
@@ -47,45 +47,13 @@ require "includes/head.php";
 
     <section class="integrantes">
         <h2>INTEGRANTES</h2>
-        
         <div class="cards">
-
-            <div class="card">
-                <img src="assets/Prof.Darlan.png">
-                <h3>Prof. Dr. Darlan Bruno Pontes Quintanilha</h3>
-                <p>Coordenador</p>
-                <a class="btn-contato" href="https://mail.google.com/mail/u/1/#inbox/FMfcgzQhVhdwnDWqDHsbcZjcWDdjWztB?compose=DmwnWsTRSzxqzlktqVMqrHqplXTTDsQdMlqJBMJgRsHRPlTHKXmtNpWGKMpCRkkPwcGfdRKNGskQ" target="_blank" >
-                    CONTATO
-                </a>
-            </div>
-
-            <div class="card">
-                <img src="assets/Prof.Thiago.png">
-                <h3>Prof. Dr. Tiago Bonini</h3>
-                <p>Coordenador ABI - IA</p>
-                <a class="btn-contato" href="mailto:tiago.bonini@ufma.br">
-                    CONTATO
-                </a>
-            </div>
-
-            <div class="card">
-                <img src="assets/Prof.Francisco.png">
-                <h3>Prof. Dr. Francisco Glaubos</h3>
-                <p>Coordenador ABI - Núcleo Comum</p>
-                <a class="btn-contato" href="mailto:francisco.glaubos@ufma.br">
-                    CONTATO
-                </a>
-            </div>
-
-            <div class="card">
-                <img src="assets/Leidiane.png">
-                <h3>Leidiane Melo</h3>
-                <p>Administração</p>
-                    <a href="mailto:leidiane.melo@ufma.br" class="btn-contato" >
-                        CONTATO
-                    </a>
-            </div>
-
+            
+            <?php
+                foreach ($integrantes as $integrante) {
+                    include "components/card_integrante.php";
+                }
+            ?>
         </div>
     </section>
   
@@ -93,7 +61,10 @@ require "includes/head.php";
     <?php require_once("components/footer.php"); ?>
     <!--FIM DO FOOTER-->
   
+    
+    <div id="toast-email" class="toast-email">
+    E-mail copiado!
+    </div>
     <script src="js/index.js"></script>
-
 </body>
 </html>
