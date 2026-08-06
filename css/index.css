@@ -29,13 +29,6 @@ body{
         padding .18s ease-out;
 }
 
-@media (max-width: 768px) {
-    .banner {
-        background-image: url("../assets/ccet-banner-p.png");
-        background-size: cover;
-        background-position: center;
-    }
-}
 
 .banner::before{
     content: "";
@@ -50,114 +43,114 @@ body{
         rgba(19, 37, 54, 0.18) 68%,
         rgba(19, 37, 54, 0.07) 88%,
         rgba(19, 37, 54, 0) 100%
-    );
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    mask-image: linear-gradient(
-        90deg,
-        #000 0%,
-        rgba(0, 0, 0, 0.9) 42%,
-        rgba(0, 0, 0, 0.45) 78%,
-        transparent 100%
-    );
-    -webkit-mask-image: linear-gradient(
-        90deg,
-        #000 0%,
-        rgba(0, 0, 0, 0.9) 42%,
-        rgba(0, 0, 0, 0.45) 78%,
-        transparent 100%
-    );
-    pointer-events: none;
-    z-index: 1;
-}
-
-.banner-texto{
-    position: relative;
-    z-index: 2;
-    display:flex;
-    flex-direction:column;
-    gap:20px;
-}
-
-.titulo-menor{
-    color:#4DD7C7;
-    font-size:42px;
-    font-weight:700;
-}
-
-.texto{
-    display: flex;
-    flex-direction: column;
-    gap: 0;
-}
-
-.banner h1{
-    color:white;
-    font-size:84px;
-    line-height:80px;
-    font-weight:800;
-}
-
-.banner button{
-    width:210px;
-    height:50px;
-    border-radius:35px;
-    background:transparent;
-    border:2px solid white;
-    color:white;
-    font-size:20px;
-    font-weight:500;
-    cursor:pointer;
-    transition:
-        background-color .3s ease,
-        color .3s ease,
-        transform .3s ease,
-        box-shadow .3s ease;
-}
-
-.banner button:hover{
-    background:white;
-    color:#132536;
-    transform: translateY(-2px);
-    box-shadow: 0 8px 18px rgba(77, 215, 199, 0.4);
-}
-
-.banner-imagem img{
-    width: 310px;
-}
-
-.sobre{
-    background:#E0E7EC;
-    padding:55px 150px;
-    text-align:center;
-    opacity:.88;
-    transform:translateY(28px);
-    transition:
-        opacity .55s ease,
-        transform .55s ease;
-}
-
-.sobre-ativa{
-    opacity:1;
-    transform:translateY(0);
-}
-
-.sobre h2{
-    font-size:45px;
-    font-weight: 500;
-    margin-bottom:25px;
-    color:#2B2B2B;
-}
-
-.sobre p{
-    font-size:20px;
-    color:#4A4A4A;
-    line-height:34px;
-}
-
-.integrantes{
-    padding:70px 0 90px;
-}
+        );
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        mask-image: linear-gradient(
+            90deg,
+            #000 0%,
+            rgba(0, 0, 0, 0.9) 42%,
+            rgba(0, 0, 0, 0.45) 78%,
+            transparent 100%
+            );
+            -webkit-mask-image: linear-gradient(
+                90deg,
+                #000 0%,
+                rgba(0, 0, 0, 0.9) 42%,
+                rgba(0, 0, 0, 0.45) 78%,
+                transparent 100%
+                );
+                pointer-events: none;
+                z-index: 1;
+            }
+            
+            .banner-texto{
+                position: relative;
+                z-index: 2;
+                display:flex;
+                flex-direction:column;
+                gap:20px;
+            }
+            
+            .titulo-menor{
+                color:#4DD7C7;
+                font-size:42px;
+                font-weight:700;
+            }
+            
+            .texto{
+                display: flex;
+                flex-direction: column;
+                gap: 0;
+            }
+            
+            .banner h1{
+                color:white;
+                font-size:84px;
+                line-height:80px;
+                font-weight:800;
+            }
+            
+            .banner button{
+                width:210px;
+                height:50px;
+                border-radius:35px;
+                background:transparent;
+                border:2px solid white;
+                color:white;
+                font-size:20px;
+                font-weight:500;
+                cursor:pointer;
+                transition:
+                background-color .3s ease,
+                color .3s ease,
+                transform .3s ease,
+                box-shadow .3s ease;
+            }
+            
+            .banner button:hover{
+                background:white;
+                color:#132536;
+                transform: translateY(-2px);
+                box-shadow: 0 8px 18px rgba(77, 215, 199, 0.4);
+            }
+            
+            .banner-imagem img{
+                width: 310px;
+            }
+            
+            .sobre{
+                background:#E0E7EC;
+                padding:55px 150px;
+                text-align:center;
+                opacity:.88;
+                 padding-top: 83px;
+                transition:
+                opacity .55s ease,
+                transform .55s ease;
+            }
+            
+            .sobre-ativa{
+                opacity:1;
+               padding-top: 55px;
+            }
+            
+            .sobre h2{
+                font-size:45px;
+                font-weight: 500;
+                margin-bottom:25px;
+                color:#2B2B2B;
+            }
+            
+            .sobre p{
+                font-size:20px;
+                color:#4A4A4A;
+                line-height:34px;
+            }
+            
+            .integrantes{
+                padding:70px 0 90px;
+            }
 
 .integrantes h2{
     text-align:center;
@@ -184,9 +177,9 @@ body{
     border:1px solid transparent;
     background:#fff;
     transition:
-        transform .35s ease,
-        box-shadow .35s ease,
-        border-color .35s ease;
+    transform .35s ease,
+    box-shadow .35s ease,
+    border-color .35s ease;
 }
 
 .card:hover{
@@ -202,9 +195,9 @@ body{
     border-radius:50%;
     margin-bottom:20px;
     transition:
-        transform .35s ease,
-        border-color .35s ease,
-        box-shadow .35s ease;
+    transform .35s ease,
+    border-color .35s ease,
+    box-shadow .35s ease;
 }
 
 .card:hover img{
@@ -249,10 +242,10 @@ body{
     text-decoration:none;
     cursor:pointer;
     transition:
-        background-color .3s ease,
-        color .3s ease,
-        transform .3s ease,
-        box-shadow .3s ease;
+    background-color .3s ease,
+    color .3s ease,
+    transform .3s ease,
+    box-shadow .3s ease;
 }
 
 .card .btn-contato:hover{
@@ -284,4 +277,49 @@ body{
     opacity:1;
     visibility:visible;
     transform:translateX(-50%) translateY(0);
+}
+@media (max-width:992px){
+    .banner {
+        background-image: url("../assets/ccet-banner-p.png");
+        background-size: cover;
+        background-position: center 30%; 
+        height: 60vh;          
+        min-height: 380px;
+        padding: 0 20px;       
+    }
+}
+@media (max-width: 768px) {
+     .banner {
+        background-image: url("../assets/ccet-banner-p.png");
+        background-size: cover;
+        background-position: center 30%; 
+        height: 60vh;          
+        min-height: 380px;
+        padding: 0 20px;       
+    }
+
+     .banner h1{
+        font-size: 47px;
+        line-height: 46px;
+    }
+
+    .titulo-menor{
+        font-size: 27px;
+    }
+
+    .banner button{
+        width: 180px;
+        height: 44px;
+        font-size: 16px;
+    }
+    .banner-texto{
+        gap: 35px;
+    }
+    .sobre{
+        padding: 45px 28px;
+        transform: none;
+    }
+    .sobre h2{
+        font-size: 40px;
+    }
 }
