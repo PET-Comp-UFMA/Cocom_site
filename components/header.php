@@ -51,8 +51,4 @@
 
 </nav>
 
-<script>
 
-
-</script>
-<script src="js/header.js" defer></script>

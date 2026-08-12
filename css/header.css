@@ -268,7 +268,7 @@ header {
 
         visibility:visible;
     }
-    .mobile-voltar{
+    .fechar_dialogo{
     display:flex;
 
     align-items:center;
@@ -294,12 +294,12 @@ header {
     transition:.3s;
 }
 
-.mobile-voltar.active{
+.fechar_dialogo.active{
     opacity:1;
     visibility:visible;
 }
 
-.mobile-voltar span{
+.fechar_dialogo span{
     position:absolute;
 
     width:28px;
@@ -309,11 +309,11 @@ header {
     border-radius:4px;
 }
 
-.mobile-voltar span:first-child{
+.fechar_dialogo span:first-child{
     transform:rotate(45deg);
 }
 
-.mobile-voltar span:last-child{
+.fechar_dialogo span:last-child{
     transform:rotate(-45deg);
 }
 }

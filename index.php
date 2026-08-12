@@ -7,6 +7,7 @@ $cssFiles = [
 ];
 require_once "includes/functions.php";
 require "includes/head.php";
+
 $integrantes = lerJson("coordenadores.json");
 ?>
 
@@ -15,6 +16,7 @@ $integrantes = lerJson("coordenadores.json");
 
 <body>
     <!--HEADER-->
+    
     <?php require_once("components/header.php"); ?>
     <!--FIM DO HEADER-->
     <!-- Banner -->
@@ -65,6 +67,9 @@ $integrantes = lerJson("coordenadores.json");
     <div id="toast-email" class="toast-email">
     E-mail copiado!
     </div>
+
+   
+    
     <script src="js/index.js"></script>
 </body>
 </html>

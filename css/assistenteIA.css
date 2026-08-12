@@ -1,0 +1,130 @@
+.assistente{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
+    z-index: 2000;
+    border-color: #53ceb9;
+    border-style: solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: transparent;  
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+}
+
+.assistente:hover {
+    background-color: #53ceb9;
+}
+
+.assistente img{
+    position: absolute;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.imagem_fundo {
+    border-radius: 50%;
+    z-index: 1; 
+    transition: opacity 0.6s ease; 
+    
+}
+
+.imagem_frente {
+    z-index: 2;
+    width: 25px !important;
+    height: 25px !important;  
+}
+
+.assistente:hover .imagem_fundo {
+    opacity: 0; 
+}
+
+.dialogo_ia{
+    display: none;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+
+
+.dialogo_ia.mostrar{
+    position: fixed;
+    bottom: 90px; 
+    right: 20px;
+    width: 320px;
+    height: 450px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    z-index: 9998;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.dialogo_ia nav {
+    background-color: #007bff; 
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-voltar{
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    width:44px;
+    height:44px;
+
+    background:transparent;
+    border:none;
+    cursor:pointer;
+
+    position:fixed;
+
+    top:26px;
+    right:24px;
+
+    z-index:3001;
+
+    opacity:0;
+    visibility:hidden;
+
+    transition:.3s;
+}
+
+.mobile-voltar.active{
+    opacity:1;
+    visibility:visible;
+}
+
+.mobile-voltar span{
+    position:absolute;
+
+    width:28px;
+    height:3px;
+
+    background:#fff;
+    border-radius:4px;
+}
+
+.mobile-voltar span:first-child{
+    transform:rotate(45deg);
+}
+
+.mobile-voltar span:last-child{
+    transform:rotate(-45deg);
+}
