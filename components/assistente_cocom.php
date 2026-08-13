@@ -3,7 +3,7 @@
             <img class="imagem_fundo"
             src="assets/AssistenteVirtualCOCOM.png" alt="assistente Virtual">
             <img class="imagem_frente"
-            src="assets/favicon-v1\balao.png" alt="balao de dialogo">
+            src="assets/favicon-v1/balao.png" alt="balao de dialogo">
 </button>
 
 
@@ -11,7 +11,7 @@
     <nav >
         <div class="cabecalho">
             <img src="assets/AssistenteVirtualCOCOM.png" alt="assistente Virtual">
-            <div>Assistente COCOM <br>Online</div>
+            <p>Assistente COCOM<br><span class="status_online">off</span></p>
         </div>
 
         <button class="fechar_dialogo">
@@ -20,16 +20,15 @@
         </button>
     </nav>
 
-    <div>
-<!-- aq fica os textos de dialogo  -->
+    <div class= "corpo_chat">
+        <!-- aq irá ficar as trocas de mensagens -->
     </div>
-    <div>
+    <div class="parte_inferior">
         <div>
             <input type="text" placeholder= "Digite sua dúvida">
-            
         </div>
-        <button>
-            <img src="assets/favicon-v1\enter.png" alt="">
+        <button class="btn_enter">
+            <img src="assets/favicon-v1/enter.png" alt="">
         </button>
     </div>
 </div>
