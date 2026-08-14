@@ -147,6 +147,28 @@
 
 }
 
+.msg_bot{
+    align-self: flex-start;
+    max-width: 80%;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px 12px 12px 0;
+    padding: 10px 14px;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.msg_usuario{
+    align-self: flex-end;
+    max-width: 80%;
+    background-color: #53ceb9;
+    color: #fff;
+    border-radius: 12px 12px 0 12px;
+    padding: 8px 14px;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
 .parte_inferior {
     display: flex;
     justify-content: space-between;
