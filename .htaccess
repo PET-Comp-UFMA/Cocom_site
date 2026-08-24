@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /Cocom_site/
+RewriteBase /cocom/
 
 # Se alguém acessar /router.php diretamente, redireciona para a URL limpa
 RewriteCond %{THE_REQUEST} \s/+(?:router\.php)?[?\s] [NC]
