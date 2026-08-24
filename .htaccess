@@ -1,13 +1,8 @@
 RewriteEngine On
-RewriteBase /Cocom_site/
 
-# Se alguém acessar /router.php diretamente, redireciona para a URL limpa
-RewriteCond %{THE_REQUEST} \s/+(?:router\.php)?[?\s] [NC]
-RewriteRule ^(?:router\.php)?$ / [R=301,L]
+RewriteBase /cocom_site/
 
-# Não redireciona se o arquivo ou pasta existir de verdade
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-# Manda tudo para o router.php, que decide a rota
-RewriteRule ^(.*)$ router.php [QSA,L]
+RewriteRule ^(.*)$ index.php [QSA,L]
