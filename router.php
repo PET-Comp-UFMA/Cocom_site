@@ -45,7 +45,7 @@ function route($path, $routes)
     }
 
     http_response_code(404);
-    require 'pages/404.php';
+    require '404.php';
     exit;
 }
 

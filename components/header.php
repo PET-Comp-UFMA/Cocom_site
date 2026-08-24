@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="css/header.css">
 <header>
     <div class="header-left">
-        <a href="index.php" class="header-logo-link">
+        <a href="" class="header-logo-link">
             <div class="cocom-logo">
                 <img src="assets/logo_cocom.svg" alt="logo_cocom">
             </div>
@@ -17,13 +17,13 @@
 
 
     <nav class="header-nav">
-        <a class="nav-item" href="index.php">Início</a>
+        <a class="nav-item" href="">Início</a>
         <a class="nav-item" href="https://sigaa.ufma.br/sigaa/public/curso/curriculo_curso.jsf?lc=pt_BR&lc=pt_BR&id=85766" target="_blank">
             Currículo
         </a>
-        <a class="nav-item" href="noticias.php">Notícias</a>
-        <a class="nav-item" href="documentos.php">Documentos</a>
-        <a class="nav-item" href="historico.php">Histórico do Curso</a>
+        <a class="nav-item" href="noticias">Notícias</a>
+        <a class="nav-item" href="documentos">Documentos</a>
+        <a class="nav-item" href="historico">Histórico do Curso</a>
     </nav>
 </header>
 
@@ -37,17 +37,17 @@
 
 <nav class="mobile-menu">
 
-    <a href="index.php">Início</a>
+    <a href="">Início</a>
 
     <a href="https://sigaa.ufma.br/sigaa/public/curso/curriculo_curso.jsf?lc=pt_BR&id=85766">
         Currículo
     </a>
 
-    <a href="noticias.php">Notícias</a>
+    <a href="noticias">Notícias</a>
 
-    <a href="documentos.php">Documentos</a>
+    <a href="documentos">Documentos</a>
 
-    <a href="historico.php">Histórico</a>
+    <a href="historico">Histórico</a>
 
 </nav>
 
