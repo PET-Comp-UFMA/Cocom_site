@@ -31,19 +31,19 @@
                     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
                     </svg>
-                    <a href="noticias.php">Notícias e Avisos</a>
+                    <a href="noticias">Notícias e Avisos</a>
                 </li>
                 <li>
                     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
                     </svg>
-                    <a href="documentos.php">Documentos Oficiais</a>
+                    <a href="documentos">Documentos Oficiais</a>
                 </li>
                 <li>
                     <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z" />
                     </svg>
-                    <a href="historico.php">Sobre o Curso</a>
+                    <a href="historico">Sobre o Curso</a>
                 </li>
             </ul>
         </div>

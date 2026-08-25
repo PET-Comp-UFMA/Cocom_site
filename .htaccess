@@ -1,8 +1,10 @@
 RewriteEngine On
 
-RewriteBase /cocom_site/
+
+RewriteCond %{THE_REQUEST} \s/+(?:router\.php)?[?\s] [NC]
+RewriteRule ^(?:router\.php)?$ / [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-RewriteRule ^(.*)$ index.php [QSA,L]
+RewriteRule ^(.*)$ router.php [QSA,L]
